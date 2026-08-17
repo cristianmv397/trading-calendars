@@ -1,0 +1,51 @@
+name: Generar calendario de resultados
+
+on:
+  schedule:
+    # Dia 1 de cada mes, 07:00 UTC.
+    - cron: "0 7 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generar-calendario
+  cancel-in-progress: false
+
+jobs:
+  generar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Generar los ICS
+        env:
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+        run: python generate.py
+
+      - name: Commitear docs/ y estado/, con sello de actividad
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Sello de actividad SIEMPRE presente en el commit, aunque el ICS
+          # no haya cambiado de contenido: GitHub desactiva los cron de
+          # repositorios sin actividad reciente (~60 dias). Es exactamente
+          # el motivo por el que un proyecto de terceros equivalente dejo
+          # de funcionar en abril de 2026 -- no es algo hipotetico.
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > .last-run
+
+          git add docs/ estado/ .last-run
+          git commit -m "chore: genera calendario de resultados ($(date -u +%Y-%m-%d))"
+          git push

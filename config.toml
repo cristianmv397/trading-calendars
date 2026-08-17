@@ -1,0 +1,48 @@
+[general]
+# Ventana de dias hacia atras que se conserva del estado publicado antes de
+# purgarlo (evita que estado/publicado.json crezca sin limite con eventos ya
+# pasados hace anos).
+purgar_estado_mas_antiguo_que_dias = 400
+
+[capitalizacion]
+# Umbrales en USD. No estan incrustados en el codigo: cambia estos valores y
+# vuelve a generar sin tocar generate.py ni ics.py.
+large_cap_usd = 10_000_000_000
+mid_cap_usd = 2_000_000_000
+
+[alphavantage]
+# SUPUESTO / LIMITACION CONOCIDA (17/08/2026): horizon=6month y
+# horizon=12month devuelven una respuesta corrupta con la clave probada (el
+# CSV trae "Error Message" troceado caracter a caracter en las 7 columnas,
+# Content-Type application/x-download, 87 bytes). No se ha podido confirmar
+# si es un bug del servidor o una restriccion de plan no documentada. Solo
+# "3month" (el valor por defecto de su API) devuelve datos reales hoy.
+# Si en el futuro se confirma que 6month/12month funcionan, cambiar aqui:
+# el resto del pipeline no depende de este valor.
+horizon = "3month"
+
+[nasdaq]
+# Ventana de dias naturales hacia adelante que se pide a la API de earnings
+# de Nasdaq, un dia natural por peticion.
+dias_horizonte = 90
+# Cabeceras necesarias: la API no es oficial ni documentada y devuelve vacio
+# sin ellas.
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+origin = "https://www.nasdaq.com"
+referer = "https://www.nasdaq.com/"
+
+[horas]
+# Hora local America/New_York. VTIMEZONE se genera aparte para que el
+# horario de verano no desplace los eventos.
+antes_apertura_hora = "08:00"
+antes_apertura_duracion_minutos = 15
+tras_cierre_hora = "16:15"
+tras_cierre_duracion_minutos = 15
+# Sin franja conocida -> evento de dia completo (VALUE=DATE). No hay una
+# hora "por defecto": la ausencia de dato es informacion, no se rellena.
+
+[salida]
+calendario_nombre_large = "earnings-large.ics"
+calendario_nombre_mid = "earnings-mid.ics"
+directorio_salida = "docs"
+directorio_estado = "estado"

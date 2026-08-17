@@ -1,0 +1,9 @@
+requests==2.32.3
+icalendar==6.1.0
+tzdata==2024.2
+pytest==8.3.3
+tomli==2.0.1; python_version < "3.11"
+
+# Solo para tests: valida el ICS generado con un parser distinto al que lo
+# construye (icalendar). No lo usa generate.py en produccion.
+ics==0.7.2
