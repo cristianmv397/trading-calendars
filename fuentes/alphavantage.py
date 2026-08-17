@@ -6,13 +6,19 @@ una proyección. Sí trae una columna `timeOfTheDay` (pre-market / post-market
 / vacía), así que se usa franja horaria cuando la trae, aunque el dato en sí
 siga marcado como estimado (no confirmado) en el `SUMMARY` del evento.
 
-LIMITACIÓN CONOCIDA (verificada el 17/08/2026, ver `config.toml`):
-`horizon=6month` y `horizon=12month` devuelven una respuesta corrupta con la
-clave probada — Content-Type `application/x-download`, 87 bytes, un mensaje
-de error troceado carácter a carácter en las 7 columnas del CSV
-(`E,r,r,o,r, ,M`). No se ha podido confirmar si es un bug del servidor o una
-restricción de plan no documentada. Solo `horizon=3month` (el valor por
-defecto de la propia API) devolvió datos reales en la prueba.
+DIAGNÓSTICO CORREGIDO (17/08/2026): en una primera prueba, `horizon=6month`
+y `horizon=12month` devolvieron un cuerpo de 87 bytes (`E,r,r,o,r, ,M` tras
+la cabecera) que parecía CSV corrupto. Repetido más tarde el mismo día,
+`horizon=12month` devolvió un CSV real y completo (2.036 filas, cobertura de
+~7 meses vista). **No era corrupción del CSV: era un fallo transitorio de la
+API** (probablemente relacionado con el límite de 25 peticiones/día del plan
+gratuito, agotado durante las pruebas previas de ese mismo día) — el cuerpo
+de 87 bytes no era un CSV mal formado, sino un mensaje de error corto que el
+`csv.reader` trituraba carácter a carácter porque no se comprobaba antes si
+el cuerpo tenía la forma de un CSV real. `parsear_csv` ya no asume eso: si
+la respuesta no empieza por la cabecera esperada, falla mostrando el
+contenido real devuelto por el servidor, en vez de intentar trocearlo como
+si fueran datos.
 
 Plan gratuito: 25 peticiones/día. `obtener_calendario` debe llamarse una
 única vez por ejecución del generador, nunca por ticker.
@@ -60,34 +66,37 @@ class EventoAlphaVantage:
 def parsear_csv(contenido: str) -> list[EventoAlphaVantage]:
     """Parsea el CSV crudo de `EARNINGS_CALENDAR`.
 
-    No intenta adivinar formas raras: si la cabecera o el número de columnas
-    no coincide con lo esperado, es un error (puede ser la respuesta
-    corrupta conocida de horizon=6/12month, o un mensaje de error real de la
-    API), no una fila con datos atípicos.
+    Comprueba primero que el cuerpo tiene pinta de ser el CSV esperado
+    (empieza por la cabecera correcta) antes de intentar trocearlo por
+    comas: un mensaje de error corto de la API (límite de peticiones, plan,
+    lo que sea) no es un CSV, y pasarlo por `csv.reader` de todas formas
+    produce filas de un carácter sin avisar de nada — es exactamente lo que
+    pasó en la prueba del 17/08/2026 (ver docstring del módulo). Si el
+    cuerpo no tiene la forma de un CSV, el error muestra el texto real que
+    devolvió el servidor, no un diagnóstico inventado.
     """
     contenido = contenido.strip()
     if not contenido:
         raise AlphaVantageError("Respuesta vacía de Alpha Vantage.")
 
-    filas = list(csv.reader(io.StringIO(contenido)))
-    if not filas:
-        raise AlphaVantageError("CSV sin filas.")
+    primera_linea = contenido.splitlines()[0]
+    if not primera_linea.startswith("symbol,"):
+        extracto = contenido[:300]
+        raise AlphaVantageError(
+            f"La respuesta no tiene forma de CSV (no empieza por 'symbol,'). "
+            f"Contenido devuelto por el servidor: {extracto!r}"
+        )
 
+    filas = list(csv.reader(io.StringIO(contenido)))
     cabecera = filas[0]
     if cabecera != COLUMNAS_ESPERADAS:
-        raise AlphaVantageError(
-            f"Cabecera de columnas inesperada: {cabecera!r}. "
-            "Puede ser un mensaje de error de la API en vez de datos "
-            "(ver LIMITACIÓN CONOCIDA en el docstring del módulo)."
-        )
+        raise AlphaVantageError(f"Cabecera de columnas inesperada: {cabecera!r}.")
 
     eventos = []
     for fila in filas[1:]:
         if len(fila) != len(COLUMNAS_ESPERADAS):
             raise AlphaVantageError(
-                f"Fila con {len(fila)} columnas, se esperaban {len(COLUMNAS_ESPERADAS)}: "
-                f"{fila!r}. Es la firma de la respuesta corrupta conocida de horizon=6/12month: "
-                "revisar el valor de `horizon` usado."
+                f"Fila con {len(fila)} columnas, se esperaban {len(COLUMNAS_ESPERADAS)}: {fila!r}."
             )
         symbol, name, report_date, fiscal_date, estimate, currency, franja = fila
         if not symbol.strip() or not report_date.strip():
@@ -95,9 +104,7 @@ def parsear_csv(contenido: str) -> list[EventoAlphaVantage]:
         report_date, fiscal_date = report_date.strip(), fiscal_date.strip()
         if not _PATRON_FECHA.match(report_date) or (fiscal_date and not _PATRON_FECHA.match(fiscal_date)):
             raise AlphaVantageError(
-                f"Fecha con formato inesperado en la fila {fila!r} (se esperaba AAAA-MM-DD). "
-                "Es la firma de la respuesta corrupta conocida de horizon=6/12month: "
-                "revisar el valor de `horizon` usado."
+                f"Fecha con formato inesperado en la fila {fila!r} (se esperaba AAAA-MM-DD)."
             )
         eventos.append(
             EventoAlphaVantage(

@@ -2,8 +2,11 @@ name: Generar calendario de resultados
 
 on:
   schedule:
-    # Dia 1 de cada mes, 07:00 UTC.
-    - cron: "0 7 1 * *"
+    # Lunes, 05:00 UTC = 06:00 CET / 07:00 CEST (Europe/Madrid). GitHub
+    # Actions no soporta zonas horarias en cron: la hora local real oscila
+    # una hora entre invierno y verano, es una limitacion conocida, no un
+    # error de calculo.
+    - cron: "0 5 * * 1"
   workflow_dispatch: {}
 
 permissions:

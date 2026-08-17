@@ -36,26 +36,33 @@ práctica la relee cada 12-24 h, no al instante.
 
 ## Validación realizada (17/08/2026)
 
-Ejecución real, sin datos simulados, contra las tres APIs:
+Ejecución real, sin datos simulados, contra las tres APIs, ya con el
+diagnóstico corregido de Alpha Vantage (`horizon=12month`):
 
 | | Large (>10.000M$) | Mid (>2.000M$) |
 |---|---|---|
-| Eventos | 314 | 565 |
-| Rango de fechas | 2026-08-17 → 2026-11-10 | 2026-08-17 → 2026-11-11 |
+| Eventos | 316 | 567 |
+| Rango de fechas | 2026-08-17 → 2027-02-11 | 2026-08-17 → 2027-02-11 |
 | Confirmados (Nasdaq) | 116 | 225 |
-| Estimados (Alpha Vantage) | 198 | 340 |
-| Día completo (franja desconocida) | 235 | 433 |
+| Estimados (Alpha Vantage) | 200 | 342 |
+| Día completo (franja desconocida) | 237 | 435 |
 
-Universo del screener: 7.176 valores. Alpha Vantage: 1.814 filas. Nasdaq
-(90 días consultados): 635 filas en total, muy concentradas en las primeras
-semanas — ver el hallazgo de cobertura de Nasdaq más abajo.
+Universo del screener: 7.176 valores. Alpha Vantage: **2.036 filas** (antes
+1.814, con el `horizon` corregido). Nasdaq (90 días consultados): 635 filas,
+muy concentradas en las primeras semanas — ver el hallazgo de cobertura de
+Nasdaq más abajo.
 
-**Sobre el volumen esperado:** 565 eventos en ~3 meses extrapolan a un ritmo
-anual del orden de 2.000-2.400 eventos para `mid` — sí es "del orden de
-miles" en tasa anualizada, pero el número absoluto de esta ejecución es
-menor de lo que parecería a primera vista porque Alpha Vantage solo cubre
-~3 meses vista (ver limitación de `horizon` más abajo), no el año completo
-que se planteó originalmente.
+**Por qué el recuento de eventos casi no cambió aunque Alpha Vantage pasó de
+1.814 a 2.036 filas:** de esas 2.036, solo 1.233 tickers están en el
+universo del screener (nasdaq+nyse+amex); el resto (803) son valores OTC o
+fuera de ese universo, y quedan excluidos por diseño (sin capitalización
+conocida, no se puede aplicar el filtro — ver `fusion.filtrar_por_capitalizacion`).
+De los 1.233 que sí están, la mayoría no supera los umbrales de large/mid
+cap. El número de empresas grandes y medianas de EE. UU. es finito
+independientemente de cuánto se alargue el horizonte de consulta: alargarlo
+amplía sobre todo el **rango de fechas** cubierto (ahora hasta febrero de
+2027, antes hasta noviembre de 2026), no tanto el recuento total de
+eventos relevantes.
 
 **ICS validado con un parser independiente** (`vobject`, sin relación con
 `icalendar`, que es lo que lo construye): confirma el mismo número de
@@ -81,15 +88,18 @@ Ninguna fuente cubre sola lo que hace falta:
    Plan gratuito: 25 peticiones/día, así que se llama una única vez por
    ejecución.
 
-   **Limitación conocida, verificada el 17/08/2026:** `horizon=6month` y
-   `horizon=12month` devuelven una respuesta corrupta con la clave probada
-   (un mensaje de error troceado carácter a carácter en las columnas del
-   CSV). Solo `horizon=3month` funciona hoy. No se ha podido confirmar si es
-   un bug del servidor o una restricción de plan no documentada. El
-   horizonte real de "esqueleto del año" queda en ~3 meses vista, renovados
-   en cada ejecución mensual — no un año completo de una vez, como se
-   planteó originalmente. Configurable en `config.toml` si algún día se
-   confirma que horizontes más largos funcionan.
+   **Diagnóstico corregido el 17/08/2026** (ver `fuentes/alphavantage.py`):
+   una primera prueba de `horizon=6month` y `horizon=12month` devolvió un
+   cuerpo de 87 bytes con pinta de CSV corrupto (un mensaje de error
+   troceado carácter a carácter). Repetido más tarde el mismo día,
+   `horizon=12month` devolvió un CSV real y completo: **2.036 filas, ~7
+   meses de cobertura** (agosto 2026 a marzo 2027). No era corrupción, era
+   un fallo transitorio de la API — probablemente el límite de 25
+   peticiones/día agotado durante las pruebas previas de ese mismo día. El
+   parser (`parsear_csv`) ya no confunde un mensaje de error corto con un
+   CSV: si el cuerpo no empieza por la cabecera esperada, el error muestra
+   el texto real devuelto por el servidor. `config.toml` usa `horizon =
+   "12month"`.
 
 2. **API pública de Nasdaq (`/api/calendar/earnings`)** — precisión a corto
    plazo, confirmada. Una petición por día natural, acepta hasta ~90 días
@@ -187,12 +197,23 @@ python generate.py            # ejecución real: sí toca la red
 
 ## Automatización (GitHub Actions)
 
-`.github/workflows/generar.yml`: cron mensual (día 1) + `workflow_dispatch`
-para lanzarlo a mano. Cada ejecución escribe un sello de actividad
-(`.last-run`) además de `docs/` y `estado/`, para que GitHub no desactive el
-cron por inactividad del repositorio — es el motivo concreto por el que un
-proyecto de terceros equivalente dejó de funcionar en abril de 2026, no una
-precaución hipotética.
+`.github/workflows/generar.yml`: cron **semanal** (lunes, 05:00 UTC ≈ 06:00
+CET / 07:00 CEST de Europa/Madrid — GitHub Actions no soporta zonas
+horarias en cron, así que la hora local real oscila una hora según la
+época del año) + `workflow_dispatch` para lanzarlo a mano.
+
+Semanal, no mensual: el horizonte real de Nasdaq como fuente confirmada son
+~6 semanas (ver hallazgo más abajo), así que un ciclo mensual tardaría
+demasiado en convertir un evento ESTIMADO en confirmado justo en el tramo
+que más importa. Con cadencia semanal, cualquier evento dentro de esas 6
+semanas tiene varias oportunidades de pasar de estimado a confirmado antes
+de que se acerque la fecha.
+
+Cada ejecución escribe un sello de actividad (`.last-run`) además de
+`docs/` y `estado/`, para que GitHub no desactive el cron por inactividad
+del repositorio — es el motivo concreto por el que un proyecto de terceros
+equivalente dejó de funcionar en abril de 2026, no una precaución
+hipotética.
 
 GitHub Pages se sirve directamente desde la rama `main`, carpeta `/docs` —
 no hay un job de despliegue de Pages separado: el commit del workflow ya dej

@@ -384,6 +384,11 @@
     "franja": "desconocida",
     "sequence": 0
   },
+  "BMNR-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-20",
+    "franja": "desconocida",
+    "sequence": 0
+  },
   "BMO-2026-Q3@trading-calendars": {
     "fecha": "2026-08-25",
     "franja": "antes_apertura",
@@ -2076,6 +2081,11 @@
   },
   "RDY-2026-Q3@trading-calendars": {
     "fecha": "2026-10-22",
+    "franja": "desconocida",
+    "sequence": 0
+  },
+  "RELX-2026-Q4@trading-calendars": {
+    "fecha": "2027-02-11",
     "franja": "desconocida",
     "sequence": 0
   },

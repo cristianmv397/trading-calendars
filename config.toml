@@ -11,15 +11,14 @@ large_cap_usd = 10_000_000_000
 mid_cap_usd = 2_000_000_000
 
 [alphavantage]
-# SUPUESTO / LIMITACION CONOCIDA (17/08/2026): horizon=6month y
-# horizon=12month devuelven una respuesta corrupta con la clave probada (el
-# CSV trae "Error Message" troceado caracter a caracter en las 7 columnas,
-# Content-Type application/x-download, 87 bytes). No se ha podido confirmar
-# si es un bug del servidor o una restriccion de plan no documentada. Solo
-# "3month" (el valor por defecto de su API) devuelve datos reales hoy.
-# Si en el futuro se confirma que 6month/12month funcionan, cambiar aqui:
-# el resto del pipeline no depende de este valor.
-horizon = "3month"
+# Diagnostico corregido el 17/08/2026 (ver fuentes/alphavantage.py): una
+# primera prueba de horizon=6month/12month devolvio un cuerpo de 87 bytes
+# que parecia CSV corrupto; repetido mas tarde el mismo dia, horizon=12month
+# devolvio un CSV real y completo (2.036 filas, ~7 meses de cobertura). Fue
+# un fallo transitorio de la API (probablemente el limite de 25
+# peticiones/dia agotado durante las pruebas previas), no una restriccion
+# de plan. El parser ya no confunde un mensaje de error corto con datos.
+horizon = "12month"
 
 [nasdaq]
 # Ventana de dias naturales hacia adelante que se pide a la API de earnings

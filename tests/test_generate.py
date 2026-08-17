@@ -28,7 +28,7 @@ def test_cargar_config_real():
     config = generate.cargar_config(generate.RAIZ / "config.toml")
     assert config["capitalizacion"]["large_cap_usd"] == 10_000_000_000
     assert config["capitalizacion"]["mid_cap_usd"] == 2_000_000_000
-    assert config["alphavantage"]["horizon"] == "3month"
+    assert config["alphavantage"]["horizon"] == "12month"
 
 
 def test_index_html_incluye_las_dos_urls():

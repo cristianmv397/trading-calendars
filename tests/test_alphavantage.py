@@ -40,10 +40,24 @@ def test_csv_vacio_lanza_error():
         av.parsear_csv("")
 
 
-def test_respuesta_corrupta_de_horizon_largo_lanza_error():
-    """La respuesta real y corrupta de horizon=6/12month: no debe parsearse como datos."""
+def test_fila_con_fecha_mal_formada_lanza_error():
+    """Caso observado el 17/08/2026: un cuerpo con cabecera válida pero una fila
+    con datos sin sentido (ver DIAGNÓSTICO CORREGIDO en el docstring del módulo:
+    resultó ser un fallo transitorio de la API, no un CSV realmente corrupto,
+    pero el parser debe seguir detectando filas con fechas inválidas de todas formas)."""
     with pytest.raises(av.AlphaVantageError, match="[Ff]echa"):
         av.parsear_csv(_leer("alphavantage_error_corrupto.csv"))
+
+
+def test_respuesta_que_no_es_csv_muestra_el_texto_real_del_servidor():
+    """Fixture reconstruida a mano en el estilo típico de un aviso de límite de
+    Alpha Vantage (no es una captura literal: nunca vimos el mensaje completo,
+    solo una versión truncada a 7 caracteres). Lo que importa es que el error
+    muestre el contenido devuelto, no que intente trocearlo como CSV."""
+    contenido = _leer("alphavantage_no_es_csv.txt")
+    with pytest.raises(av.AlphaVantageError, match="no tiene forma de CSV") as exc_info:
+        av.parsear_csv(contenido)
+    assert "Alpha Vantage" in str(exc_info.value)  # el texto real es visible en el error
 
 
 def test_fila_con_numero_de_columnas_distinto_lanza_error():
@@ -56,4 +70,4 @@ def test_fila_con_numero_de_columnas_distinto_lanza_error():
 
 def test_cabecera_inesperada_lanza_error():
     with pytest.raises(av.AlphaVantageError, match="[Cc]abecera"):
-        av.parsear_csv("foo,bar\n1,2\n")
+        av.parsear_csv("symbol,foo\n1,2\n")
