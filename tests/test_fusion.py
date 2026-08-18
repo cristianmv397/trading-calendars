@@ -104,3 +104,55 @@ def test_ticker_sin_capitalizacion_conocida_se_excluye():
     eventos = fusion.fusionar([_av("GHOST", "2026-10-01", "2026-09-30")], [])
     filtrados = fusion.filtrar_por_capitalizacion(eventos, universo=[], minimo_usd=0)
     assert filtrados == []
+
+
+# ---------------------------------------------------------------------------
+# Normalización de ticker: acciones de doble clase, cada fuente con su
+# separador. Caso real detectado el 19/08/2026: BF.B (Brown-Forman) se
+# perdía en el filtro de capitalización porque Alpha Vantage lo da como
+# "BF.B" y el screener de Nasdaq como "BF/B" -- nunca coincidían.
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.parametrize(
+    "ticker,esperado",
+    [
+        ("BF.B", "BF-B"),
+        ("BF/B", "BF-B"),
+        ("BF-B", "BF-B"),
+        ("BRK.A", "BRK-A"),
+        ("BRK/A", "BRK-A"),
+        ("aapl", "AAPL"),  # sigue pasando a mayúsculas
+        (" MU ", "MU"),  # sigue quitando espacios
+    ],
+)
+def test_normalizar_ticker(ticker, esperado):
+    assert fusion.normalizar_ticker(ticker) == esperado
+
+
+def test_filtrar_por_capitalizacion_bf_b_alphavantage_punto_screener_barra():
+    """El caso real: BF.B en Alpha Vantage, BF/B en el screener -- debe coincidir."""
+    eventos = fusion.fusionar([_av("BF.B", "2026-09-02", "2026-07-31")], [])
+    universo = [ValorScreener("BF/B", "Brown-Forman Corporation", 15_000_000_000.0)]
+    filtrados = fusion.filtrar_por_capitalizacion(eventos, universo, minimo_usd=2_000_000_000)
+    assert [e.ticker for e in filtrados] == ["BF.B"]  # el ticker publicado no cambia, solo la comparación
+
+
+def test_filtrar_por_capitalizacion_brk_b_alphavantage_guion_screener_barra():
+    eventos = fusion.fusionar([_av("BRK-B", "2026-08-02", "2026-06-30")], [])
+    universo = [ValorScreener("BRK/B", "Berkshire Hathaway Inc.", 1_100_000_000_000.0)]
+    filtrados = fusion.filtrar_por_capitalizacion(eventos, universo, minimo_usd=2_000_000_000)
+    assert [e.ticker for e in filtrados] == ["BRK-B"]
+
+
+def test_filtrar_por_capitalizacion_no_confunde_clases_distintas():
+    """BRK/A y BRK/B no deben mezclarse entre sí al normalizar -- solo cambia el separador."""
+    eventos = fusion.fusionar(
+        [_av("BRK.A", "2026-08-02", "2026-06-30"), _av("BRK.B", "2026-08-02", "2026-06-30")], []
+    )
+    universo = [
+        ValorScreener("BRK/A", "Berkshire Hathaway Inc.", 1_200_000_000_000.0),
+        ValorScreener("BRK/B", "Berkshire Hathaway Inc.", 1_100_000_000_000.0),
+    ]
+    filtrados = fusion.filtrar_por_capitalizacion(eventos, universo, minimo_usd=2_000_000_000)
+    assert {e.ticker for e in filtrados} == {"BRK.A", "BRK.B"}

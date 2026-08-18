@@ -1,25 +1,51 @@
 # trading-calendars
 
-Genera y publica dos feeds de calendario (ICS) con las fechas de resultados
+Genera y publica dos feeds de calendario (ICS) con fechas de resultados
 trimestrales de empresas cotizadas en EE. UU., para suscribirlos desde Google
 Calendar. Proyecto hermano de [`trading-stack`](https://github.com/cristianmv397/trading-stack)
 (privado): este repositorio es **público**, porque GitHub Pages lo exige y
 porque Google Calendar necesita leer el ICS sin autenticación. No hay nada
 sensible aquí — ninguna clave, ninguna posición, ningún dato de cuenta.
 
+## Qué es esto, y qué no es (19/08/2026)
+
+**No es un calendario de resultados completo. Es una preselección barata y
+parcial.** Medido el 19/08/2026 (informe completo en
+[`investigacion/2026-08-19-cobertura-sp500/`](investigacion/2026-08-19-cobertura-sp500/informe.md)
+de este mismo repositorio): **el 63 % del S&P 500 no aparece en
+`earnings-mid.ics`**, no por un filtro de capitalización — 314 de esos 316
+ausentes tienen de sobra la capitalización necesaria y están en el universo
+del screener — sino porque las dos fuentes de fecha (Alpha Vantage y el
+calendario de resultados de Nasdaq) simplemente no cubren a esas empresas.
+Verificado sobre la respuesta cruda de las fuentes, no solo sobre lo que
+devuelve este código.
+
+La ausencia **no está repartida al azar**: varía por sector, de 47 %
+ausente en Consumer Discretionary a 90 % en Utilities — un rango de 44
+puntos. La capitalización ayuda poco (incluso el decil más alto del S&P 500
+tiene un 40 % de ausencia) y el mercado de cotización (NYSE/Nasdaq) no
+explica nada.
+
+**Decisión (trading-stack, 19/08/2026): se acepta.** El feed se usa como lo
+que es — un filtro que **excluye cuando tiene el dato** y **no dice nada
+cuando no lo tiene**, sabiendo que no tenerlo es el caso mayoritario, no la
+excepción. La comprobación que de verdad protege una posición sigue siendo
+la confirmación manual del bloque 11 antes de abrir, no este feed. No se ha
+contratado ninguna fuente de pago para tapar el hueco: sobre un único
+candidato que se va a analizar, el coste de comprobar la fecha a mano son
+treinta segundos, y eso es lo que este feed le ahorra al operador la
+mayoría de las veces — no una garantía.
+
 ## Por qué existe
 
 Sirve para **evitar** operar valores que publican resultados dentro de la
-ventana de una operación swing, no para operar el evento. Por eso: **una
-fecha estimada presentada como confirmada es peor que no tener el dato.**
-Todo evento del calendario deja claro de dónde sale (`nasdaq` o
-`alphavantage`) y si está confirmado o es una estimación — visible en el
-propio título del evento, no solo en la descripción.
+ventana de una operación swing, no para operar el evento — cuando el dato
+está disponible. Por eso: **una fecha estimada presentada como confirmada es
+peor que no tener el dato.** Todo evento del calendario deja claro de dónde
+sale (`nasdaq` o `alphavantage`) y si está confirmado o es una estimación —
+visible en el propio título del evento, no solo en la descripción.
 
 ## URLs de suscripción
-
-*(Se rellenan aquí en cuanto el operador active GitHub Pages — ver
-"Lo que queda por hacer" más abajo. Formato esperado:)*
 
 ```
 https://cristianmv397.github.io/trading-calendars/earnings-large.ics
@@ -28,7 +54,8 @@ https://cristianmv397.github.io/trading-calendars/earnings-mid.ics
 
 - **`earnings-large.ics`** — capitalización > 10.000 M USD.
 - **`earnings-mid.ics`** — capitalización > 2.000 M USD (incluye a los
-  anteriores).
+  anteriores). **Cobertura real medida: ~37 % del S&P 500** (187 de 503,
+  19/08/2026) — ver "Qué es esto, y qué no es" arriba.
 
 En Google Calendar: **Otros calendarios → Desde URL**, pegar la URL. Se
 actualiza sola (cabecera `REFRESH-INTERVAL`), aunque Google Calendar en la
@@ -63,6 +90,14 @@ independientemente de cuánto se alargue el horizonte de consulta: alargarlo
 amplía sobre todo el **rango de fechas** cubierto (ahora hasta febrero de
 2027, antes hasta noviembre de 2026), no tanto el recuento total de
 eventos relevantes.
+
+> **Corrección (19/08/2026).** El párrafo anterior da a entender que el
+> recuento final está limitado principalmente por los umbrales de
+> capitalización. La investigación de cobertura del 19/08/2026 mide algo
+> más preciso: dentro del propio S&P 500 (donde el umbral de capitalización
+> nunca es el problema), el 63 % sigue ausente porque las fuentes no lo
+> cubren, no porque no llegue al mínimo. Ver "Qué es esto, y qué no es" al
+> principio de este documento.
 
 **ICS validado con un parser independiente** (`vobject`, sin relación con
 `icalendar`, que es lo que lo construye): confirma el mismo número de
@@ -100,6 +135,23 @@ Ninguna fuente cubre sola lo que hace falta:
    CSV: si el cuerpo no empieza por la cabecera esperada, el error muestra
    el texto real devuelto por el servidor. `config.toml` usa `horizon =
    "12month"`.
+
+   **Hallazgo de cobertura, verificado el 19/08/2026 sobre la respuesta
+   cruda sin parsear** (detalle completo en
+   [`investigacion/2026-08-19-cobertura-sp500/`](investigacion/2026-08-19-cobertura-sp500/informe.md)):
+   `EARNINGS_CALENDAR` **no incluye a la mayoría del S&P 500**, ni siquiera
+   a empresas tan seguidas como Microsoft o Amazon — comprobado con la
+   petición masiva y de nuevo con `symbol=MSFT` individual, ambas devolviendo
+   cero filas para esos tickers, con `AAPL` funcionando como control en el
+   mismo lote. No es un problema de nuestro cliente ni de nuestro parseo
+   (auditado: cero filas se pierden al parsear) ni de límite de peticiones
+   ni de truncamiento — es que el "esqueleto" que en teoría cubre el mercado
+   entero, en la práctica no cubre casi dos tercios del índice de referencia
+   de EE. UU., con un sesgo fuerte por sector (Utilities y Real Estate muy
+   por debajo de Consumer Discretionary y Financials). Es el hallazgo
+   dominante detrás del bajo recuento final: pesa mucho más que el efecto
+   de los umbrales de capitalización descrito en la sección de validación
+   más abajo.
 
 2. **API pública de Nasdaq (`/api/calendar/earnings`)** — precisión a corto
    plazo, confirmada. Una petición por día natural, acepta hasta ~90 días
@@ -145,6 +197,16 @@ Vantage, `fiscalQuarterEnding` de Nasdaq) porque las dos fuentes no usan el
 mismo formato — es una aproximación por mes, no el calendario fiscal oficial
 de cada empresa (ver docstring de `fusion.normalizar_trimestre`).
 
+**Bug corregido el 19/08/2026, `fusion.normalizar_ticker`:** las acciones
+de doble clase usan un separador distinto según la fuente — Alpha Vantage
+`BF.B`, el screener de Nasdaq `BF/B`. `filtrar_por_capitalizacion` comparaba
+por cadena exacta, así que nunca coincidían y el evento se descartaba por
+"sin capitalización conocida" aunque la fuente de fechas sí lo cubriera.
+Detectado con `BF.B` (Brown-Forman) durante la investigación de cobertura
+del 19/08/2026. Alcance real de este bug: 1 ticker de los 316 ausentes del
+S&P 500 — no cambia la conclusión de que el hueco es casi enteramente de
+las fuentes, no del código, pero es gratis de arreglar y ya está.
+
 ## Formato del ICS
 
 - iCalendar 2.0 válido, con `VTIMEZONE` completo para `America/New_York`
@@ -188,7 +250,7 @@ python -m venv .venv
 .venv/Scripts/activate        # Windows; source .venv/bin/activate en Linux/Mac
 pip install -r requirements.txt
 cp .env.example .env          # rellenar ALPHAVANTAGE_API_KEY
-python -m pytest -q           # 50 tests, sin red
+python -m pytest -q           # 62 tests, sin red
 python generate.py            # ejecución real: sí toca la red
 ```
 

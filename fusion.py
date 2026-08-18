@@ -142,6 +142,29 @@ def fusionar(
     return sorted(por_clave.values(), key=lambda ev: (ev.fecha, ev.ticker))
 
 
+_SEPARADORES_CLASE_ACCION = str.maketrans({".": "-", "/": "-"})
+
+
+def normalizar_ticker(ticker: str) -> str:
+    """Normaliza el separador de una acción de doble clase para comparar.
+
+    Cada fuente representa una acción de doble clase con un separador
+    distinto para el mismo ticker: Alpha Vantage usa punto (`BF.B`), el
+    screener de Nasdaq usa barra (`BF/B`). Un cruce por cadena exacta entre
+    las dos nunca coincide, y el evento se pierde en
+    `filtrar_por_capitalizacion` aunque la fuente de fechas sí lo cubra —
+    confirmado el 19/08/2026 con `BF.B` (Brown-Forman): tenía fecha real en
+    Alpha Vantage y se descartaba igualmente por "sin capitalización
+    conocida". Este es el único sitio del código donde se compara un ticker
+    de una fuente contra el de otra; normalizar aquí basta.
+
+    Solo unifica el separador (`.`, `/` → `-`) tras pasar a mayúsculas y
+    quitar espacios — no toca nada más: no es una normalización general de
+    símbolos, es la que hace falta para este cruce concreto.
+    """
+    return ticker.strip().upper().translate(_SEPARADORES_CLASE_ACCION)
+
+
 def filtrar_por_capitalizacion(
     eventos: list[EventoResultado],
     universo: list[ValorScreener],
@@ -152,15 +175,22 @@ def filtrar_por_capitalizacion(
     Un ticker que no aparece en el universo del screener (p. ej. deslistado
     entre la descarga del universo y la de earnings) se excluye: sin
     capitalización conocida no se puede aplicar el filtro, y la opción
-    conservadora es no publicarlo, no asumir que cumple el mínimo.
+    conservadora es no publicarlo, no asumir que cumple el mínimo. La
+    comparación se hace sobre el ticker normalizado (ver
+    `normalizar_ticker`); el evento publicado conserva su ticker original,
+    tal cual lo dio su fuente — la normalización es solo para encontrar la
+    capitalización correcta, no cambia lo que se publica.
     """
     capitalizacion_por_ticker = {
-        v.ticker: v.capitalizacion_usd for v in universo if v.capitalizacion_usd is not None
+        normalizar_ticker(v.ticker): v.capitalizacion_usd
+        for v in universo
+        if v.capitalizacion_usd is not None
     }
     return [
         ev
         for ev in eventos
-        if (cap := capitalizacion_por_ticker.get(ev.ticker)) is not None and cap > minimo_usd
+        if (cap := capitalizacion_por_ticker.get(normalizar_ticker(ev.ticker))) is not None
+        and cap > minimo_usd
     ]
 
 
@@ -170,6 +200,7 @@ __all__ = [
     "normalizar_trimestre",
     "normalizar_franja_nasdaq",
     "normalizar_franja_alphavantage",
+    "normalizar_ticker",
     "fusionar",
     "filtrar_por_capitalizacion",
 ]
