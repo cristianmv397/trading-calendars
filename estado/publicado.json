@@ -4,11 +4,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "AAL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "AAMI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
@@ -16,8 +11,8 @@
   },
   "AAOI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "AAON-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -49,10 +44,10 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "ABCB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
+  "ABCB-2026-Q4@trading-calendars": {
+    "fecha": "2027-01-28",
+    "franja": "desconocida",
+    "sequence": 0
   },
   "ABCL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
@@ -69,15 +64,15 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
+  "ABM-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-16",
+    "franja": "desconocida",
+    "sequence": 0
+  },
   "ABNB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "ABT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
   },
   "ACA-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -86,8 +81,8 @@
   },
   "ACAD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ACGL-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -106,13 +101,13 @@
   },
   "ACIW-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ACLS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ACM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-17",
@@ -120,7 +115,12 @@
     "sequence": 0
   },
   "ACMR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
+  },
+  "ACN-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -139,15 +139,10 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "ADC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "ADEA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ADI-2026-Q4@trading-calendars": {
     "fecha": "2026-11-24",
@@ -181,8 +176,8 @@
   },
   "ADT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ADUS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -194,15 +189,10 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "AEHR-2026-Q3@trading-calendars": {
+  "AEIS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "AEIS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "AEM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -223,11 +213,6 @@
     "fecha": "2026-10-28",
     "franja": "antes_apertura",
     "sequence": 1
-  },
-  "AERO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "AES-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -264,20 +249,20 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
+  "AGIO-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 0
+  },
   "AGM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
     "franja": "desconocida",
     "sequence": 0
   },
-  "AGNC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "AGO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "AGX-2026-Q4@trading-calendars": {
     "fecha": "2026-12-03",
@@ -354,34 +339,24 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "ALK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "ALKS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ALL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "ALLE-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "ALLY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "ALM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
     "franja": "desconocida",
+    "sequence": 0
+  },
+  "ALMR-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-03",
+    "franja": "tras_cierre",
     "sequence": 0
   },
   "ALNY-2026-Q3@trading-calendars": {
@@ -395,19 +370,9 @@
     "sequence": 0
   },
   "ALSN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "ALV-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
+    "fecha": "2026-11-02",
+    "franja": "tras_cierre",
     "sequence": 1
-  },
-  "ALVO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "AM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -424,11 +389,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "AMBP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "AMC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "desconocida",
@@ -436,8 +396,8 @@
   },
   "AMCR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "AMD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -479,6 +439,11 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
+  "AMPL-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 0
+  },
   "AMR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "desconocida",
@@ -504,15 +469,10 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "AMX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "AMZN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "AN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
@@ -589,15 +549,10 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "APPF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "APPN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "APTV-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -634,15 +589,10 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "ARGX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "ARIS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ARLP-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
@@ -656,8 +606,8 @@
   },
   "ARMK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-16",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "AROC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -665,14 +615,9 @@
     "sequence": 0
   },
   "ARQT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "ARR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-28",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ARW-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -690,29 +635,24 @@
     "sequence": 0
   },
   "ARXS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "AS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-17",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ASAN-2026-Q4@trading-calendars": {
     "fecha": "2026-12-01",
     "franja": "desconocida",
     "sequence": 0
   },
-  "ASB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "ASH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ASND-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
@@ -723,11 +663,6 @@
     "fecha": "2026-12-08",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "ASR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-28",
-    "franja": "desconocida",
-    "sequence": 1
   },
   "ASST-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
@@ -759,15 +694,10 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "ATKR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-19",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "ATMU-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ATO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -794,11 +724,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "AUB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "AUGO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "tras_cierre",
@@ -820,9 +745,9 @@
     "sequence": 1
   },
   "AVAH-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-12",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "AVAL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
@@ -851,8 +776,8 @@
   },
   "AVT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "AVTR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -893,11 +818,6 @@
     "fecha": "2026-11-03",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "AXP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
-    "sequence": 2
   },
   "AXS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -949,11 +869,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "BAH-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "BALL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
     "franja": "antes_apertura",
@@ -969,11 +884,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "BANR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "BAP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
     "franja": "tras_cierre",
@@ -981,41 +891,31 @@
   },
   "BATRA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "BATRK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "BAX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
     "sequence": 1
   },
+  "BB-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
+    "franja": "desconocida",
+    "sequence": 0
+  },
   "BBAR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-24",
     "franja": "desconocida",
     "sequence": 0
   },
-  "BBD-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "BBDO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "BBIO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "BBT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
+    "fecha": "2026-10-29",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -1046,8 +946,8 @@
   },
   "BCC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "BCE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -1064,21 +964,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "BCPC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "BCRX-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "BCS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "BDC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
@@ -1087,11 +972,6 @@
   "BDX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "BE-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "BEAM-2026-Q3@trading-calendars": {
@@ -1105,14 +985,14 @@
     "sequence": 0
   },
   "BELFA-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "BELFB-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "BEN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -1126,27 +1006,17 @@
   },
   "BEPC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "BETA-2026-Q3@trading-calendars": {
-    "fecha": "2026-12-03",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "BFAM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "BFH-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "BFLY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
+  "BETA-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-03",
     "franja": "antes_apertura",
+    "sequence": 1
+  },
+  "BFAM-2026-Q3@trading-calendars": {
+    "fecha": "2026-10-29",
+    "franja": "tras_cierre",
     "sequence": 1
   },
   "BG-2026-Q3@trading-calendars": {
@@ -1156,8 +1026,8 @@
   },
   "BGC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "BGSI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
@@ -1181,6 +1051,11 @@
   },
   "BHP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-17",
+    "franja": "desconocida",
+    "sequence": 0
+  },
+  "BHVN-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-09",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -1214,6 +1089,11 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
+  "BIRK-2026-Q3@trading-calendars": {
+    "fecha": "2026-12-17",
+    "franja": "desconocida",
+    "sequence": 0
+  },
   "BJ-2026-Q4@trading-calendars": {
     "fecha": "2026-11-20",
     "franja": "desconocida",
@@ -1243,11 +1123,6 @@
     "fecha": "2026-10-27",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "BKU-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
   },
   "BKV-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -1294,11 +1169,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "BMI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "BMO-2026-Q4@trading-calendars": {
     "fecha": "2026-12-03",
     "franja": "desconocida",
@@ -1339,20 +1209,20 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
+  "BOBS-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 0
+  },
   "BOH-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "BOKF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
+  "BOOT-2026-Q3@trading-calendars": {
+    "fecha": "2026-10-28",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "BOOT-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "BOX-2026-Q4@trading-calendars": {
     "fecha": "2026-12-01",
@@ -1364,15 +1234,10 @@
     "franja": "antes_apertura",
     "sequence": 0
   },
-  "BPOP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "BR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "BRC-2026-Q4@trading-calendars": {
     "fecha": "2026-11-16",
@@ -1390,9 +1255,9 @@
     "sequence": 0
   },
   "BRKR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "BRO-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
@@ -1421,8 +1286,8 @@
   },
   "BSM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "BSP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
@@ -1438,11 +1303,6 @@
     "fecha": "2026-11-05",
     "franja": "antes_apertura",
     "sequence": 1
-  },
-  "BTDR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-09",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "BTE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -1460,9 +1320,9 @@
     "sequence": 1
   },
   "BTU-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "BUD-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -1509,18 +1369,8 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "BX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "BXP-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "BYD-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -1538,11 +1388,6 @@
     "fecha": "2026-10-29",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "CACI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
   },
   "CAE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-10",
@@ -1575,9 +1420,9 @@
     "sequence": 0
   },
   "CAMT-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-09",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CAR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -1586,8 +1431,8 @@
   },
   "CARG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CARR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -1609,20 +1454,10 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "CATY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "CAVA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "CB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "CBC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -1634,19 +1469,9 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "CBRE-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "CBRS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "CBSH-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
+    "fecha": "2026-11-12",
+    "franja": "tras_cierre",
     "sequence": 1
   },
   "CBT-2026-Q3@trading-calendars": {
@@ -1659,29 +1484,14 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "CBZ-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "CCC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "desconocida",
     "sequence": 0
   },
-  "CCI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "CCJ-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "CCK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "CDE-2026-Q3@trading-calendars": {
@@ -1710,19 +1520,14 @@
     "sequence": 1
   },
   "CDW-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "CECO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "CEG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -1794,6 +1599,11 @@
     "franja": "desconocida",
     "sequence": 0
   },
+  "CHCO-2026-Q3@trading-calendars": {
+    "fecha": "2026-10-28",
+    "franja": "desconocida",
+    "sequence": 0
+  },
   "CHD-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
     "franja": "antes_apertura",
@@ -1825,9 +1635,9 @@
     "sequence": 1
   },
   "CHRD-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CHRW-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -1871,8 +1681,8 @@
   },
   "CIFR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CIG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-13",
@@ -1891,28 +1701,23 @@
   },
   "CL-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CLBK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
+    "fecha": "2026-10-26",
     "franja": "desconocida",
-    "sequence": 0
+    "sequence": 1
   },
   "CLBT-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-12",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CLDX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "CLF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "antes_apertura",
-    "sequence": 1
   },
   "CLH-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -1954,16 +1759,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "CMCSA-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "CME-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "CMG-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
     "franja": "tras_cierre",
@@ -1973,6 +1768,11 @@
     "fecha": "2026-11-05",
     "franja": "antes_apertura",
     "sequence": 1
+  },
+  "CMPR-2026-Q3@trading-calendars": {
+    "fecha": "2026-10-28",
+    "franja": "tras_cierre",
+    "sequence": 0
   },
   "CMS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -1990,9 +1790,9 @@
     "sequence": 1
   },
   "CNH-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-06",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-09",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CNI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
@@ -2000,9 +1800,9 @@
     "sequence": 1
   },
   "CNK-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CNM-2026-Q4@trading-calendars": {
     "fecha": "2026-12-08",
@@ -2010,9 +1810,9 @@
     "sequence": 0
   },
   "CNO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-29",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CNP-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -2026,8 +1826,8 @@
   },
   "CNR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CNX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -2036,16 +1836,6 @@
   },
   "CNXN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "COCO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
-  "COF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -2071,11 +1861,6 @@
   },
   "COKE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "COLB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -2086,13 +1871,13 @@
   },
   "COLM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "COMP-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CON-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -2131,8 +1916,8 @@
   },
   "COTY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CP-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -2141,13 +1926,13 @@
   },
   "CPA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-18",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CPAY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CPB-2026-Q4@trading-calendars": {
     "fecha": "2026-12-08",
@@ -2161,8 +1946,8 @@
   },
   "CPNG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CPRT-2026-Q4@trading-calendars": {
     "fecha": "2026-11-19",
@@ -2206,8 +1991,8 @@
   },
   "CRGY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CRH-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -2231,11 +2016,6 @@
   },
   "CROX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "CRS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -2279,6 +2059,11 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
+  "CSQR-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-09",
+    "franja": "tras_cierre",
+    "sequence": 0
+  },
   "CSTM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
     "franja": "antes_apertura",
@@ -2286,13 +2071,13 @@
   },
   "CSW-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
+    "franja": "antes_apertura",
+    "sequence": 1
+  },
+  "CTAS-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "CSX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "CTOS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
@@ -2319,25 +2104,10 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "CUBI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "CURB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "CUZ-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "CVBF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "CVCO-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -2350,9 +2120,9 @@
     "sequence": 0
   },
   "CVI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CVLT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -2385,14 +2155,14 @@
     "sequence": 1
   },
   "CWEN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-09",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CWK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "CWST-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
@@ -2421,8 +2191,8 @@
   },
   "CYTK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "CZR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -2476,8 +2246,8 @@
   },
   "DBX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "DCI-2026-Q4@trading-calendars": {
     "fecha": "2026-12-03",
@@ -2486,8 +2256,8 @@
   },
   "DCO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "DD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -2503,11 +2273,6 @@
     "fecha": "2026-11-25",
     "franja": "antes_apertura",
     "sequence": 0
-  },
-  "DECK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
   },
   "DELL-2026-Q4@trading-calendars": {
     "fecha": "2026-11-24",
@@ -2526,23 +2291,13 @@
   },
   "DGII-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "DGX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
+    "franja": "tras_cierre",
     "sequence": 1
   },
   "DHI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
     "sequence": 2
-  },
-  "DHR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 1
   },
   "DHT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -2556,8 +2311,8 @@
   },
   "DIOD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "DIS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-17",
@@ -2566,18 +2321,18 @@
   },
   "DK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "DKL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "DKNG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "DKS-2026-Q4@trading-calendars": {
     "fecha": "2026-11-24",
@@ -2609,11 +2364,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "DNN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "DNOW-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "desconocida",
@@ -2630,14 +2380,14 @@
     "sequence": 1
   },
   "DOCN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "DOCS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "DOCU-2026-Q4@trading-calendars": {
     "fecha": "2026-12-03",
@@ -2654,30 +2404,25 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "DOV-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "DOW-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "DOX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-10",
     "franja": "desconocida",
     "sequence": 0
   },
   "DPC-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-10",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-12",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "DRH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
     "franja": "tras_cierre",
     "sequence": 1
+  },
+  "DRI-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
+    "franja": "desconocida",
+    "sequence": 0
   },
   "DRS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -2690,9 +2435,9 @@
     "sequence": 0
   },
   "DT-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "DTE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -2720,24 +2465,19 @@
     "sequence": 0
   },
   "DVA-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-29",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "DVN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "DX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "DXC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "DXCM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -2759,11 +2499,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "E-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "EAT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
     "franja": "antes_apertura",
@@ -2774,11 +2509,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "EBC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "EC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-10",
     "franja": "desconocida",
@@ -2786,8 +2516,8 @@
   },
   "ECG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ECHO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -2829,16 +2559,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "EFSC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "EFX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "EFXT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
@@ -2851,11 +2571,6 @@
   },
   "EGO-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "EGP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -2881,23 +2596,13 @@
   },
   "ELF-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ELPC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "ELS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
-  "ELV-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
   },
   "ELVN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
@@ -2950,9 +2655,9 @@
     "sequence": 1
   },
   "ENS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-11",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ENSG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
@@ -2962,11 +2667,6 @@
   "ENTG-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "ENVA-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "EOG-2026-Q3@trading-calendars": {
@@ -2988,11 +2688,6 @@
     "fecha": "2026-10-28",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "EPRT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "EQH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
@@ -3020,9 +2715,9 @@
     "sequence": 1
   },
   "EQX-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-09",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ERAS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
@@ -3039,20 +2734,15 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "EROC-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-10",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "EROK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
     "franja": "desconocida",
     "sequence": 0
   },
   "ES-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ESAB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -3061,11 +2751,6 @@
   },
   "ESE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-19",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "ESI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -3076,8 +2761,8 @@
   },
   "ESNT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ESS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -3091,18 +2776,13 @@
   },
   "ETN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "ETOR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-10",
     "franja": "antes_apertura",
     "sequence": 1
   },
   "ETR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-02",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ETSY-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -3124,11 +2804,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "EWBC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "EWTX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "desconocida",
@@ -3145,9 +2820,9 @@
     "sequence": 1
   },
   "EXEL-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-29",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "EXK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -3160,9 +2835,9 @@
     "sequence": 1
   },
   "EXP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "EXPD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -3189,11 +2864,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "EZPW-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-12",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "F-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
     "franja": "tras_cierre",
@@ -3202,11 +2872,6 @@
   "FA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "FAF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "FANG-2026-Q3@trading-calendars": {
@@ -3219,33 +2884,13 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "FBNC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-28",
-    "franja": "desconocida",
-    "sequence": 1
-  },
-  "FBP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "FCF-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "FCFS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "FCN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "FCNCA-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -3258,6 +2903,11 @@
     "fecha": "2026-10-27",
     "franja": "antes_apertura",
     "sequence": 1
+  },
+  "FDS-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
+    "franja": "desconocida",
+    "sequence": 0
   },
   "FDX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -3294,25 +2944,15 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "FHB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "FHI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "FIBK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "FICO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "FIG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -3326,21 +2966,16 @@
   },
   "FIGS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "FIS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
+    "fecha": "2026-11-04",
     "franja": "antes_apertura",
-    "sequence": 1
+    "sequence": 2
   },
   "FISV-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "FITB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -3354,11 +2989,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "FIX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "FIZZ-2026-Q4@trading-calendars": {
     "fecha": "2026-12-10",
     "franja": "desconocida",
@@ -3366,11 +2996,6 @@
   },
   "FLEX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "FLG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -3385,9 +3010,9 @@
     "sequence": 1
   },
   "FLUT-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "FLY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-10",
@@ -3396,8 +3021,8 @@
   },
   "FLYW-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "FMS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -3411,11 +3036,6 @@
   },
   "FN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "FNB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -3454,25 +3074,10 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "FR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "FRHC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "FRME-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
-  "FRMI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-12",
-    "franja": "antes_apertura",
-    "sequence": 1
   },
   "FRO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-20",
@@ -3521,16 +3126,11 @@
   },
   "FSM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "FSS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "FSV-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -3569,11 +3169,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "FULT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "FUTU-2026-Q3@trading-calendars": {
     "fecha": "2026-11-17",
     "franja": "desconocida",
@@ -3602,11 +3197,6 @@
   "GATX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "GBCI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "GBDC-2026-Q3@trading-calendars": {
@@ -3639,11 +3229,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "GE-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "GEF-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
     "franja": "tras_cierre",
@@ -3661,8 +3246,8 @@
   },
   "GEO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "GEV-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -3694,11 +3279,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "GGG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "GH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "tras_cierre",
@@ -3715,12 +3295,17 @@
     "sequence": 1
   },
   "GIL-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "GILD-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
+    "franja": "tras_cierre",
+    "sequence": 1
+  },
+  "GIS-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-16",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -3729,20 +3314,15 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "GL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "GLBE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-18",
     "franja": "desconocida",
     "sequence": 0
   },
   "GLNG-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-18",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "GLPI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -3756,11 +3336,6 @@
   },
   "GLXY-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "GM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -3784,11 +3359,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "GNTX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "GNW-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
@@ -3796,8 +3366,8 @@
   },
   "GOLF-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "GOOG-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -3809,15 +3379,10 @@
     "franja": "tras_cierre",
     "sequence": 2
   },
-  "GPC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
+  "GPGI-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
     "franja": "antes_apertura",
     "sequence": 1
-  },
-  "GPGI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "GPI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -3830,14 +3395,14 @@
     "sequence": 1
   },
   "GPN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "GPOR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "GRAB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
@@ -3845,9 +3410,9 @@
     "sequence": 1
   },
   "GRAL-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "GRBK-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -3855,9 +3420,9 @@
     "sequence": 1
   },
   "GRDN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-09",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "GRMN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -3929,19 +3494,9 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "HAL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "HALO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "HAS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
     "sequence": 1
   },
   "HASI-2026-Q3@trading-calendars": {
@@ -3954,15 +3509,10 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "HBAN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "HBM-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-12",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "HCA-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -3975,13 +3525,18 @@
     "sequence": 1
   },
   "HCI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "HD-2026-Q4@trading-calendars": {
     "fecha": "2026-11-17",
     "franja": "antes_apertura",
+    "sequence": 0
+  },
+  "HEI-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
+    "franja": "desconocida",
     "sequence": 0
   },
   "HESM-2026-Q3@trading-calendars": {
@@ -3996,13 +3551,13 @@
   },
   "HGTY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "HGV-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "HHH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -4024,11 +3579,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "HIMX-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "HIW-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
     "franja": "tras_cierre",
@@ -4045,9 +3595,9 @@
     "sequence": 1
   },
   "HLIO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "HLN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -4083,11 +3633,6 @@
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
     "sequence": 2
-  },
-  "HON-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
   },
   "HONA-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -4140,14 +3685,9 @@
     "sequence": 0
   },
   "HRMY-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "HSAI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-10",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "HSBC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -4156,8 +3696,8 @@
   },
   "HSIC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "HST-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -4170,17 +3710,12 @@
     "sequence": 1
   },
   "HTFL-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "HTGC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
+    "fecha": "2026-11-12",
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "HTH-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
+  "HTGC-2026-Q3@trading-calendars": {
+    "fecha": "2026-10-29",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -4201,8 +3736,8 @@
   },
   "HUBS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "HUM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -4210,18 +3745,13 @@
     "sequence": 1
   },
   "HURN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 1
+    "fecha": "2026-11-03",
+    "franja": "tras_cierre",
+    "sequence": 2
   },
   "HUT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "HWC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "HWKN-2026-Q3@trading-calendars": {
@@ -4234,30 +3764,15 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "HXL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "IAG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "IBM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
-  "IBOC-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "IBP-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "IBRX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -4271,8 +3786,8 @@
   },
   "ICL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ICLR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -4281,8 +3796,8 @@
   },
   "ICUI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "IDA-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -4345,9 +3860,9 @@
     "sequence": 1
   },
   "IMAX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "desconocida",
-    "sequence": 1
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 2
   },
   "IMNM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -4359,15 +3874,10 @@
     "franja": "antes_apertura",
     "sequence": 0
   },
-  "IMOS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-10",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "IMVT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "INCY-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -4376,18 +3886,8 @@
   },
   "INDV-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "INFQ-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "INFY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
     "franja": "antes_apertura",
-    "sequence": 2
+    "sequence": 1
   },
   "ING-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -4396,18 +3896,23 @@
   },
   "INGM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "INGR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "INIO-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
     "franja": "antes_apertura",
     "sequence": 1
+  },
+  "INOD-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 0
   },
   "INSM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -4421,8 +3926,8 @@
   },
   "INSW-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "INTA-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -4486,13 +3991,13 @@
   },
   "IPAR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "IPGP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "IQV-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -4503,11 +4008,6 @@
     "fecha": "2026-10-29",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "IRDM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "IREN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -4530,24 +4030,14 @@
     "sequence": 1
   },
   "IRTC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "ISRG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
+    "fecha": "2026-11-05",
     "franja": "tras_cierre",
     "sequence": 1
   },
   "IT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "ITGR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ITRI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -4561,8 +4051,8 @@
   },
   "ITUB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ITW-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -4595,7 +4085,12 @@
     "sequence": 1
   },
   "JAZZ-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
+    "fecha": "2026-11-02",
+    "franja": "tras_cierre",
+    "sequence": 1
+  },
+  "JBL-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-16",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -4605,9 +4100,9 @@
     "sequence": 1
   },
   "JBTM-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "JCI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -4626,8 +4121,8 @@
   },
   "JKHY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "JLL-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -4641,13 +4136,13 @@
   },
   "JOBY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "JOE-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "JOYY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-18",
@@ -4669,13 +4164,13 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "KALU-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "KB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-13",
+    "franja": "desconocida",
+    "sequence": 0
+  },
+  "KBH-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -4704,15 +4199,20 @@
     "franja": "desconocida",
     "sequence": 0
   },
+  "KEP-2026-Q3@trading-calendars": {
+    "fecha": "2026-12-17",
+    "franja": "desconocida",
+    "sequence": 0
+  },
   "KEX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "KEY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 2
+  "KEY-2026-Q4@trading-calendars": {
+    "fecha": "2027-01-20",
+    "franja": "desconocida",
+    "sequence": 0
   },
   "KEYS-2026-Q4@trading-calendars": {
     "fecha": "2026-11-23",
@@ -4750,14 +4250,14 @@
     "sequence": 1
   },
   "KLAC-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "KLAR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-17",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "KLIC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-18",
@@ -4769,20 +4269,15 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "KMI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "KMT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "KN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
+  "KMX-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
+    "franja": "desconocida",
+    "sequence": 0
   },
   "KNF-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -4794,20 +4289,10 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "KNSL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "KNTK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "KNX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "KO-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -4829,11 +4314,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "KRC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "KRG-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
     "franja": "antes_apertura",
@@ -4846,8 +4326,8 @@
   },
   "KRYS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "KSPI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
@@ -4870,9 +4350,9 @@
     "sequence": 0
   },
   "KVUE-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-30",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "KVYO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -4881,8 +4361,8 @@
   },
   "KWR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "KYIV-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -4896,11 +4376,6 @@
   },
   "L-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "LAD-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -4919,20 +4394,10 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "LAZ-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "LB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "LBRT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "LBTYA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -4950,9 +4415,9 @@
     "sequence": 1
   },
   "LCII-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "LCLN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -4979,6 +4444,11 @@
     "franja": "desconocida",
     "sequence": 0
   },
+  "LEN-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-15",
+    "franja": "desconocida",
+    "sequence": 0
+  },
   "LEU-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "desconocida",
@@ -4986,8 +4456,8 @@
   },
   "LFST-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "LFTO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
@@ -5046,8 +4516,8 @@
   },
   "LIND-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "LINE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
@@ -5090,12 +4560,7 @@
     "sequence": 0
   },
   "LMND-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "LMT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
+    "fecha": "2026-11-05",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -5164,16 +4629,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "LRCX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "LRN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "LSCC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
     "franja": "tras_cierre",
@@ -5214,16 +4669,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "LUV-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
-  "LVS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "LXP-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "desconocida",
@@ -5235,9 +4680,9 @@
     "sequence": 1
   },
   "LYFT-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "LYG-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -5275,9 +4720,9 @@
     "sequence": 1
   },
   "MAIR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MANE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-10",
@@ -5310,14 +4755,14 @@
     "sequence": 1
   },
   "MAT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "MATX-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "MBGL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
@@ -5340,14 +4785,14 @@
     "sequence": 0
   },
   "MC-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "MCD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MCHB-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -5356,18 +4801,13 @@
   },
   "MCHP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "MCK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "MCO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
   },
   "MCRI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -5380,9 +4820,9 @@
     "sequence": 1
   },
   "MD-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-29",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MDA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -5396,8 +4836,8 @@
   },
   "MDGL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MDLN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -5416,13 +4856,8 @@
   },
   "MDU-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "MEDP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MELI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -5436,11 +4871,6 @@
   },
   "MET-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "META-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -5481,8 +4911,8 @@
   },
   "MGY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "MH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -5494,11 +4924,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "MHO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "MIAX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "tras_cierre",
@@ -5506,13 +4931,13 @@
   },
   "MIDD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MIR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "MIRM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -5534,18 +4959,8 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "MLI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "MLM-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "MMM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
+    "fecha": "2026-11-04",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -5560,14 +4975,14 @@
     "sequence": 1
   },
   "MMYT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-26",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MNDY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MNSO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-19",
@@ -5585,12 +5000,7 @@
     "sequence": 1
   },
   "MOD-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "MOH-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
+    "fecha": "2026-11-03",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -5624,6 +5034,11 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
+  "MQ-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-03",
+    "franja": "tras_cierre",
+    "sequence": 0
+  },
   "MRCY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-10",
     "franja": "tras_cierre",
@@ -5655,14 +5070,9 @@
     "sequence": 1
   },
   "MSA-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "MSCI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 2
+    "fecha": "2026-11-02",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "MSFT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -5680,13 +5090,8 @@
     "sequence": 0
   },
   "MSI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "MSM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
     "sequence": 1
   },
   "MSTR-2026-Q3@trading-calendars": {
@@ -5736,16 +5141,21 @@
   },
   "MTRN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MTSI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "MTZ-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
+    "franja": "tras_cierre",
+    "sequence": 1
+  },
+  "MU-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-16",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -5771,12 +5181,7 @@
   },
   "MWH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "MXL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
+    "franja": "antes_apertura",
     "sequence": 1
   },
   "MYRG-2026-Q3@trading-calendars": {
@@ -5786,8 +5191,8 @@
   },
   "MZTI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "NAMS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -5796,8 +5201,8 @@
   },
   "NATL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "NBIS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-10",
@@ -5815,19 +5220,14 @@
     "sequence": 1
   },
   "NCLH-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-29",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "NCNO-2026-Q4@trading-calendars": {
     "fecha": "2026-12-02",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "NDAQ-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 2
   },
   "NDSN-2026-Q4@trading-calendars": {
     "fecha": "2026-12-09",
@@ -5836,16 +5236,6 @@
   },
   "NE-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "NEE-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "NEM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -5869,11 +5259,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "NFLX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "NGVT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
@@ -5892,11 +5277,6 @@
   "NI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "NIC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "desconocida",
     "sequence": 1
   },
   "NICE-2026-Q3@trading-calendars": {
@@ -5919,10 +5299,10 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "NLY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 2
+  "NKE-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-17",
+    "franja": "desconocida",
+    "sequence": 0
   },
   "NMIH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -5954,19 +5334,9 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "NOC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "NOG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "NOK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
     "sequence": 1
   },
   "NOV-2026-Q3@trading-calendars": {
@@ -5984,29 +5354,24 @@
     "franja": "tras_cierre",
     "sequence": 2
   },
-  "NP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "NPO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "NRG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "desconocida",
     "sequence": 0
   },
-  "NSC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
+  "NSIT-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "NSIT-2026-Q3@trading-calendars": {
+  "NSP-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
+    "franja": "antes_apertura",
     "sequence": 0
   },
   "NTAP-2026-Q4@trading-calendars": {
@@ -6021,8 +5386,8 @@
   },
   "NTCT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "NTES-2026-Q3@trading-calendars": {
     "fecha": "2026-11-19",
@@ -6044,11 +5409,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "NTRS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "NU-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
     "franja": "desconocida",
@@ -6058,11 +5418,6 @@
     "fecha": "2026-10-26",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "NVAX-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "NVDA-2026-Q4@trading-calendars": {
     "fecha": "2026-11-18",
@@ -6076,12 +5431,7 @@
   },
   "NVO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "NVR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-28",
-    "franja": "desconocida",
+    "franja": "antes_apertura",
     "sequence": 1
   },
   "NVS-2026-Q3@trading-calendars": {
@@ -6096,8 +5446,8 @@
   },
   "NVT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "NVTS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -6111,8 +5461,8 @@
   },
   "NWE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "NWG-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
@@ -6189,11 +5539,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "OFG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "OGC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
@@ -6218,11 +5563,6 @@
     "fecha": "2026-11-03",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "OII-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "OKE-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -6249,16 +5589,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "OMAB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "OMC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "OMF-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
     "franja": "antes_apertura",
@@ -6266,18 +5596,13 @@
   },
   "ON-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "ONB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ONC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ONDS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
@@ -6290,17 +5615,12 @@
     "sequence": 0
   },
   "ONTO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-09",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "OPCH-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "OPEN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -6324,11 +5644,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "ORI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "ORKA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
     "franja": "desconocida",
@@ -6346,8 +5661,8 @@
   },
   "OSIS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "OSK-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -6355,9 +5670,9 @@
     "sequence": 1
   },
   "OSW-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "OTEX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -6386,8 +5701,8 @@
   },
   "OUT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "OVV-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -6401,11 +5716,6 @@
   },
   "OXY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "OZK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -6424,20 +5734,15 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "PAC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "PACS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-18",
     "franja": "desconocida",
     "sequence": 0
   },
   "PAG-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "PAGP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -6471,13 +5776,13 @@
   },
   "PATK-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "PAY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "PAYC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -6485,9 +5790,9 @@
     "sequence": 1
   },
   "PAYO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "PAYP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -6534,11 +5839,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "PCG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "PCOR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
     "franja": "tras_cierre",
@@ -6572,11 +5872,6 @@
   "PEG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "PEGA-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "PEN-2026-Q3@trading-calendars": {
@@ -6614,25 +5909,20 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "PG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "PGEN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
     "franja": "desconocida",
     "sequence": 0
   },
   "PGNY-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "PH-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "PHG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -6646,11 +5936,6 @@
   },
   "PHIN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "PHM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -6670,9 +5955,9 @@
     "sequence": 2
   },
   "PINS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-29",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "PIPR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
@@ -6688,11 +5973,6 @@
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "PKG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "PKX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
@@ -6716,8 +5996,8 @@
   },
   "PLNT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "PLSE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -6726,11 +6006,6 @@
   },
   "PLTR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "PLUG-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-09",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -6743,16 +6018,6 @@
     "fecha": "2026-10-28",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "PM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 3
-  },
-  "PNFP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "PNR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -6770,12 +6035,7 @@
     "sequence": 1
   },
   "PONY-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-24",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "POOL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
+    "fecha": "2026-11-18",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -6791,8 +6051,8 @@
   },
   "POWI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "POWL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-17",
@@ -6835,9 +6095,9 @@
     "sequence": 0
   },
   "PRCH-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "PRDO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -6846,8 +6106,8 @@
   },
   "PRGO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "PRI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -6855,9 +6115,9 @@
     "sequence": 1
   },
   "PRIM-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "PRK-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
@@ -6890,9 +6150,9 @@
     "sequence": 1
   },
   "PS-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-02",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "PSA-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
@@ -6916,8 +6176,8 @@
   },
   "PTC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "PTCT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -6936,8 +6196,8 @@
   },
   "PTON-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "PTRN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -6971,13 +6231,13 @@
   },
   "QCOM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "QGEN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "QLYS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -6988,11 +6248,6 @@
     "fecha": "2026-11-10",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "QS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "QSR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -7008,11 +6263,6 @@
     "fecha": "2026-11-05",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "R-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
   },
   "RACE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -7049,11 +6299,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "RCI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "RCL-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
     "franja": "antes_apertura",
@@ -7066,8 +6311,8 @@
   },
   "RDDT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "RDN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -7083,11 +6328,6 @@
     "fecha": "2026-11-04",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "RDY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "desconocida",
-    "sequence": 1
   },
   "REG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -7106,13 +6346,8 @@
   },
   "RELY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "REXR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "tras_cierre",
-    "sequence": 2
+    "sequence": 1
   },
   "REYN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -7120,9 +6355,9 @@
     "sequence": 1
   },
   "REZI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-10",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "RGA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -7136,8 +6371,8 @@
   },
   "RGLD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "RGTI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
@@ -7148,11 +6383,6 @@
     "fecha": "2026-12-10",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "RHI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-28",
-    "franja": "desconocida",
-    "sequence": 1
   },
   "RHP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
@@ -7165,12 +6395,7 @@
     "sequence": 1
   },
   "RIOT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "RITM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
+    "fecha": "2026-11-04",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -7186,8 +6411,8 @@
   },
   "RKLB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "RKT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -7196,18 +6421,13 @@
   },
   "RL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "RLAY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "RLI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
-    "sequence": 1
   },
   "RLX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-13",
@@ -7223,11 +6443,6 @@
     "fecha": "2026-10-29",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "RNG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "RNR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -7256,27 +6471,17 @@
   },
   "ROIV-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ROK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ROKU-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "ROL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
+    "fecha": "2026-11-02",
     "franja": "tras_cierre",
-    "sequence": 2
-  },
-  "ROP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
     "sequence": 1
   },
   "ROST-2026-Q4@trading-calendars": {
@@ -7304,11 +6509,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "RS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "RSG-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "tras_cierre",
@@ -7317,11 +6517,6 @@
   "RSI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
     "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "RTX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
     "sequence": 1
   },
   "RUM-2026-Q3@trading-calendars": {
@@ -7341,8 +6536,8 @@
   },
   "RVMD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "RVTY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -7381,8 +6576,8 @@
   },
   "RYTM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "S-2026-Q4@trading-calendars": {
     "fecha": "2026-12-03",
@@ -7392,11 +6587,6 @@
   "SA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
     "franja": "desconocida",
-    "sequence": 0
-  },
-  "SAH-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "antes_apertura",
     "sequence": 0
   },
   "SAIA-2026-Q3@trading-calendars": {
@@ -7415,24 +6605,19 @@
     "sequence": 0
   },
   "SAN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 1
-  },
-  "SANM-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "SAP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
+    "fecha": "2026-10-28",
+    "franja": "antes_apertura",
     "sequence": 2
   },
-  "SARO-2026-Q3@trading-calendars": {
+  "SANM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
+  },
+  "SARO-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SBAC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
@@ -7450,9 +6635,9 @@
     "sequence": 0
   },
   "SBRA-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-02",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SBS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
@@ -7463,11 +6648,6 @@
     "fecha": "2026-10-29",
     "franja": "tras_cierre",
     "sequence": 1
-  },
-  "SCCO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
   },
   "SCI-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -7489,28 +6669,18 @@
     "franja": "desconocida",
     "sequence": 0
   },
+  "SEDG-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 0
+  },
   "SEI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "SEIC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "SEZL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "SF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
-  "SFBS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -7525,24 +6695,29 @@
     "sequence": 1
   },
   "SGHC-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SGI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-09",
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "SHAK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
+  "SGRY-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-09",
     "franja": "desconocida",
     "sequence": 0
   },
+  "SHAK-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
+  },
   "SHC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "SHEL-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -7560,9 +6735,9 @@
     "sequence": 1
   },
   "SHOO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "SHOP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -7578,11 +6753,6 @@
     "fecha": "2026-12-01",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "SIGI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "SII-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -7641,13 +6811,13 @@
   },
   "SKY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SKYD-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-09",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SKYW-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -7659,11 +6829,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "SLB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-23",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "SLDE-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
     "franja": "tras_cierre",
@@ -7674,19 +6839,9 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "SLG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "SLGN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "SLM-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "SLS-2026-Q3@trading-calendars": {
@@ -7701,8 +6856,8 @@
   },
   "SMCI-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SMFG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-13",
@@ -7715,9 +6870,9 @@
     "sequence": 1
   },
   "SMMT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
+    "fecha": "2026-10-26",
     "franja": "desconocida",
-    "sequence": 0
+    "sequence": 1
   },
   "SMR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -7731,11 +6886,6 @@
   },
   "SN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "SNA-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -7796,18 +6946,13 @@
   },
   "SOLV-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "SON-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
     "franja": "tras_cierre",
-    "sequence": 2
+    "sequence": 1
   },
   "SONO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-10",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SONY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -7816,11 +6961,6 @@
   },
   "SOUN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "SPCX-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -7844,15 +6984,10 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "SPOT-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "SPSC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SPXC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -7865,42 +7000,27 @@
     "sequence": 0
   },
   "SR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-13",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-17",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "SRAD-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "SRCE-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
+    "fecha": "2026-11-03",
+    "franja": "antes_apertura",
     "sequence": 1
   },
   "SRE-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "SRRK-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-13",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "SSB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
+    "fecha": "2026-11-10",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "SSD-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "SSNC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -7921,13 +7041,13 @@
   },
   "STE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "STEP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "STGW-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -7939,11 +7059,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "STLD-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "STM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
@@ -7951,8 +7066,8 @@
   },
   "STN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "STNE-2026-Q3@trading-calendars": {
     "fecha": "2026-11-12",
@@ -7960,9 +7075,9 @@
     "sequence": 1
   },
   "STNG-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "STRL-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -7970,14 +7085,14 @@
     "sequence": 1
   },
   "STUB-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-12",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-10",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "STVN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "STWD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -7991,33 +7106,28 @@
   },
   "SU-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SUI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-26",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SUPN-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-29",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SUZ-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "desconocida",
     "sequence": 0
   },
-  "SVM-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "SW-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-28",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "SWK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -8025,9 +7135,9 @@
     "sequence": 1
   },
   "SWKS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "SWX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -8048,11 +7158,6 @@
     "fecha": "2026-11-04",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "SYF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 2
   },
   "SYK-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -8076,11 +7181,6 @@
   },
   "SYY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "T-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -8115,8 +7215,13 @@
     "sequence": 0
   },
   "TBBB-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-18",
-    "franja": "desconocida",
+    "fecha": "2026-11-02",
+    "franja": "tras_cierre",
+    "sequence": 1
+  },
+  "TBBK-2026-Q3@trading-calendars": {
+    "fecha": "2026-10-29",
+    "franja": "tras_cierre",
     "sequence": 0
   },
   "TCOM-2026-Q3@trading-calendars": {
@@ -8130,9 +7235,9 @@
     "sequence": 0
   },
   "TDC-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "TDG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
@@ -8148,11 +7253,6 @@
     "fecha": "2026-11-09",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "TDY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
   },
   "TEAM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -8175,9 +7275,9 @@
     "sequence": 2
   },
   "TEM-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-02",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "TENB-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -8216,8 +7316,8 @@
   },
   "TFPM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "TFSL-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
@@ -8226,8 +7326,8 @@
   },
   "TFX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "TGB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
@@ -8241,8 +7341,8 @@
   },
   "TGT-2026-Q4@trading-calendars": {
     "fecha": "2026-11-18",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "TGTX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
@@ -8262,6 +7362,11 @@
   "THO-2026-Q4@trading-calendars": {
     "fecha": "2026-12-02",
     "franja": "desconocida",
+    "sequence": 0
+  },
+  "TIC-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
     "sequence": 0
   },
   "TIGO-2026-Q3@trading-calendars": {
@@ -8324,20 +7429,15 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "TMO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "TMUS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
     "franja": "tras_cierre",
     "sequence": 1
   },
   "TNET-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-10-29",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "TNGX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
@@ -8354,10 +7454,15 @@
     "franja": "antes_apertura",
     "sequence": 2
   },
-  "TOST-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
+  "TOL-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-14",
     "franja": "desconocida",
     "sequence": 0
+  },
+  "TOST-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-03",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "TOWN-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -8381,8 +7486,8 @@
   },
   "TPR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "TR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -8404,10 +7509,15 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
+  "TRLV-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 0
+  },
   "TRMB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "TRMD-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -8436,8 +7546,8 @@
   },
   "TRP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "TRU-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -8446,23 +7556,13 @@
   },
   "TS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "TSCO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
+    "franja": "tras_cierre",
     "sequence": 1
   },
   "TSEM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-02",
     "franja": "antes_apertura",
     "sequence": 1
-  },
-  "TSLA-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "TSN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-16",
@@ -8476,11 +7576,16 @@
   },
   "TTAM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "TTAN-2026-Q4@trading-calendars": {
     "fecha": "2026-12-03",
+    "franja": "desconocida",
+    "sequence": 0
+  },
+  "TTC-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-16",
     "franja": "desconocida",
     "sequence": 0
   },
@@ -8496,12 +7601,7 @@
   },
   "TTEK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "TTMI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
+    "franja": "tras_cierre",
     "sequence": 1
   },
   "TTWO-2026-Q3@trading-calendars": {
@@ -8544,11 +7644,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "TXN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "TXNM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
     "franja": "desconocida",
@@ -8584,11 +7679,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "UAL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "UBER-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "antes_apertura",
@@ -8599,25 +7689,15 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "UBSI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "UCB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "UCTT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
     "franja": "tras_cierre",
     "sequence": 1
   },
   "UDR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-02",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "UE-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -8640,9 +7720,9 @@
     "sequence": 0
   },
   "UGI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-19",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-18",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "UGP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-11",
@@ -8651,8 +7731,8 @@
   },
   "UHAL-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "UHS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -8666,8 +7746,8 @@
   },
   "ULS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ULTA-2026-Q4@trading-calendars": {
     "fecha": "2026-12-03",
@@ -8684,11 +7764,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "UNF-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "UNFI-2026-Q4@trading-calendars": {
     "fecha": "2026-12-01",
     "franja": "desconocida",
@@ -8698,11 +7773,6 @@
     "fecha": "2026-11-03",
     "franja": "tras_cierre",
     "sequence": 2
-  },
-  "UNP-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 1
   },
   "UPS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -8718,11 +7788,6 @@
     "fecha": "2026-11-24",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "URI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "USAR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -8746,18 +7811,13 @@
   },
   "UTHR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "UTZ-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "UUUU-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-02",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-06",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "V-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
@@ -8779,20 +7839,15 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "VC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
+  "VCEL-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "VCEL-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
-  },
   "VCTR-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "VCYT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
@@ -8801,8 +7856,8 @@
   },
   "VECO-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "VEEV-2026-Q4@trading-calendars": {
     "fecha": "2026-11-19",
@@ -8815,14 +7870,19 @@
     "sequence": 0
   },
   "VERA-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-05",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "VERX-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
     "franja": "tras_cierre",
     "sequence": 1
+  },
+  "VET-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 0
   },
   "VFC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -8859,11 +7919,6 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "VICR-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
   "VIK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-18",
     "franja": "desconocida",
@@ -8885,18 +7940,13 @@
     "sequence": 1
   },
   "VIV-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 1
+    "fecha": "2026-11-10",
+    "franja": "tras_cierre",
+    "sequence": 2
   },
   "VKTX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "VLO-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
+    "franja": "tras_cierre",
     "sequence": 1
   },
   "VLTO-2026-Q3@trading-calendars": {
@@ -8904,18 +7954,8 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "VLY-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
   "VMC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "VMI-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
     "franja": "antes_apertura",
     "sequence": 1
   },
@@ -8951,22 +7991,17 @@
   },
   "VRDN-2026-Q3@trading-calendars": {
     "fecha": "2026-11-04",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "VRNS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-03",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "VRSK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
     "franja": "antes_apertura",
-    "sequence": 1
-  },
-  "VRSN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
     "sequence": 1
   },
   "VRT-2026-Q3@trading-calendars": {
@@ -9009,11 +8044,6 @@
     "franja": "desconocida",
     "sequence": 0
   },
-  "VTMX-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "VTR-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
     "franja": "tras_cierre",
@@ -9049,16 +8079,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "WAB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "antes_apertura",
-    "sequence": 2
-  },
-  "WAL-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "WAT-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
     "franja": "antes_apertura",
@@ -9079,45 +8099,25 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "WCN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "WDAY-2026-Q4@trading-calendars": {
     "fecha": "2026-11-24",
     "franja": "desconocida",
     "sequence": 0
   },
-  "WDC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
-  "WDFC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
-  },
   "WEC-2026-Q3@trading-calendars": {
     "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "WELL-2026-Q3@trading-calendars": {
     "fecha": "2026-10-26",
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "WERN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-27",
-    "franja": "tras_cierre",
-    "sequence": 0
-  },
   "WES-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "WEX-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -9134,20 +8134,10 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "WFRD-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-20",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "WGS-2026-Q3@trading-calendars": {
     "fecha": "2026-10-27",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "WH-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "WHD-2026-Q3@trading-calendars": {
     "fecha": "2026-10-28",
@@ -9160,9 +8150,9 @@
     "sequence": 1
   },
   "WIX-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-18",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-10",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "WK-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -9170,9 +8160,9 @@
     "sequence": 1
   },
   "WLK-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-29",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "WLY-2026-Q4@trading-calendars": {
     "fecha": "2026-12-03",
@@ -9196,17 +8186,22 @@
   },
   "WMG-2026-Q3@trading-calendars": {
     "fecha": "2026-11-19",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "WMS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "WMT-2026-Q4@trading-calendars": {
     "fecha": "2026-11-19",
     "franja": "antes_apertura",
+    "sequence": 0
+  },
+  "WOR-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-15",
+    "franja": "desconocida",
     "sequence": 0
   },
   "WPC-2026-Q3@trading-calendars": {
@@ -9219,28 +8214,18 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "WRB-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "WRBY-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
+    "franja": "antes_apertura",
+    "sequence": 1
+  },
+  "WS-2026-Q4@trading-calendars": {
+    "fecha": "2026-12-16",
     "franja": "desconocida",
     "sequence": 0
-  },
-  "WSBC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-21",
-    "franja": "tras_cierre",
-    "sequence": 2
   },
   "WSC-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "WSFS-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
     "franja": "tras_cierre",
     "sequence": 1
   },
@@ -9261,12 +8246,7 @@
   },
   "WT-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
-    "franja": "desconocida",
-    "sequence": 0
-  },
-  "WTFC-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
+    "franja": "antes_apertura",
     "sequence": 1
   },
   "WTM-2026-Q3@trading-calendars": {
@@ -9293,6 +8273,11 @@
     "fecha": "2026-10-29",
     "franja": "antes_apertura",
     "sequence": 1
+  },
+  "WU-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-04",
+    "franja": "tras_cierre",
+    "sequence": 0
   },
   "WULF-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -9331,13 +8316,13 @@
   },
   "XMTR-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "XOM-2026-Q3@trading-calendars": {
     "fecha": "2026-10-30",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "XP-2026-Q3@trading-calendars": {
     "fecha": "2026-11-16",
@@ -9370,9 +8355,9 @@
     "sequence": 1
   },
   "YETI-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-12",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "YMM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-16",
@@ -9380,9 +8365,9 @@
     "sequence": 0
   },
   "YOU-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-04",
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "YPF-2026-Q3@trading-calendars": {
     "fecha": "2026-11-06",
@@ -9414,11 +8399,6 @@
     "franja": "antes_apertura",
     "sequence": 1
   },
-  "ZD-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-05",
-    "franja": "tras_cierre",
-    "sequence": 0
-  },
   "ZETA-2026-Q3@trading-calendars": {
     "fecha": "2026-11-03",
     "franja": "desconocida",
@@ -9429,25 +8409,15 @@
     "franja": "tras_cierre",
     "sequence": 1
   },
-  "ZGN-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-22",
-    "franja": "antes_apertura",
-    "sequence": 0
-  },
   "ZIM-2026-Q3@trading-calendars": {
     "fecha": "2026-11-19",
     "franja": "desconocida",
     "sequence": 0
   },
-  "ZION-2026-Q3@trading-calendars": {
-    "fecha": "2026-10-19",
-    "franja": "tras_cierre",
-    "sequence": 1
-  },
   "ZLAB-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
-    "franja": "desconocida",
-    "sequence": 0
+    "franja": "antes_apertura",
+    "sequence": 1
   },
   "ZM-2026-Q4@trading-calendars": {
     "fecha": "2026-11-23",
@@ -9460,9 +8430,9 @@
     "sequence": 0
   },
   "ZTO-2026-Q3@trading-calendars": {
-    "fecha": "2026-11-18",
-    "franja": "desconocida",
-    "sequence": 0
+    "fecha": "2026-11-17",
+    "franja": "tras_cierre",
+    "sequence": 1
   },
   "ZTS-2026-Q3@trading-calendars": {
     "fecha": "2026-11-05",
@@ -9473,5 +8443,10 @@
     "fecha": "2026-10-27",
     "franja": "tras_cierre",
     "sequence": 1
+  },
+  "ZYME-2026-Q3@trading-calendars": {
+    "fecha": "2026-11-05",
+    "franja": "desconocida",
+    "sequence": 0
   }
 }
