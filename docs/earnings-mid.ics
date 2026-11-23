@@ -8,9 +8,9 @@ X-WR-CALNAME:Resultados trimestrales — Mid Cap (>2.000M$)
 X-WR-TIMEZONE:America/New_York
 BEGIN:VTIMEZONE
 TZID:America/New_York
-COMMENT:This timezone only works from 2026-11-15 to 2027-03-30.
+COMMENT:This timezone only works from 2026-11-22 to 2027-03-30.
 BEGIN:STANDARD
-DTSTART:20261115T000000
+DTSTART:20261122T000000
 TZNAME:EST
 TZOFFSETFROM:-0500
 TZOFFSETTO:-0500
@@ -23,3184 +23,2524 @@ TZOFFSETTO:-0400
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:ACM — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261116T161500
-DTEND;TZID=America/New_York:20261116T163000
-DTSTAMP:20261116T131450Z
-UID:ACM-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ACM\nNombre: AECOM\nFuente: nasdaq\nEstado: confirmado
- \nEPS estimado: $1.59\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ARMK — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261116T080000
-DTEND;TZID=America/New_York:20261116T081500
-DTSTAMP:20261116T131450Z
-UID:ARMK-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ARMK\nNombre: Aramark\nFuente: nasdaq\nEstado: confirm
- ado\nEPS estimado: $0.75\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BEKE — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261116T080000
-DTEND;TZID=America/New_York:20261116T081500
-DTSTAMP:20261116T131450Z
-UID:BEKE-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BEKE\nNombre: KE Holdings Inc\nFuente: nasdaq\nEstado:
-  confirmado\nEPS estimado: $0.20\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BIDU — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261116T080000
-DTEND;TZID=America/New_York:20261116T081500
-DTSTAMP:20261116T131450Z
-UID:BIDU-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BIDU\nNombre: Baidu\, Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $0.57\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BRC — resultados (confirmado)
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-DTSTAMP:20261116T131450Z
-UID:BRC-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: BRC\nNombre: Brady Corporation\nFuente: nasdaq\nEstado
- : confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HTHT — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261116T080000
-DTEND;TZID=America/New_York:20261116T081500
-DTSTAMP:20261116T131450Z
-UID:HTHT-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: HTHT\nNombre: H World Group Limited\nFuente: nasdaq\nE
- stado: confirmado\nEPS estimado: $0.75\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PAGS — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261116T161500
-DTEND;TZID=America/New_York:20261116T163000
-DTSTAMP:20261116T131450Z
-UID:PAGS-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: PAGS\nNombre: PagSeguro Digital Ltd.\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $0.41\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:POWL — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261116T161500
-DTEND;TZID=America/New_York:20261116T163000
-DTSTAMP:20261116T131450Z
-UID:POWL-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: POWL\nNombre: Powell Industries\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1.52\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TCOM — resultados (confirmado)
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-DTSTAMP:20261116T131450Z
-UID:TCOM-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: TCOM\nNombre: Trip.com Group Limited\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $1.07\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TEO — resultados (confirmado)
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-DTSTAMP:20261116T131450Z
-UID:TEO-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: TEO\nNombre: Telecom Argentina Stet - France Telecom S
- .A.\nFuente: nasdaq\nEstado: confirmado\nEPS estimado: $0.32\nGenerado: 20
- 26-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TSN — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261116T080000
-DTEND;TZID=America/New_York:20261116T081500
-DTSTAMP:20261116T131450Z
-UID:TSN-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: TSN\nNombre: Tyson Foods\, Inc.\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $0.65\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:XP — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261116T161500
-DTEND;TZID=America/New_York:20261116T163000
-DTSTAMP:20261116T131450Z
-UID:XP-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: XP\nNombre: XP Inc.\nFuente: nasdaq\nEstado: confirmad
- o\nEPS estimado: $0.53\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:XPEV — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261116T080000
-DTEND;TZID=America/New_York:20261116T081500
-DTSTAMP:20261116T131450Z
-UID:XPEV-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: XPEV\nNombre: XPeng Inc.\nFuente: nasdaq\nEstado: conf
- irmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AS — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:AS-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: AS\nNombre: Amer Sports\, Inc.\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: $0.34\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BHP — resultados (confirmado)
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-DTSTAMP:20261116T131450Z
-UID:BHP-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: BHP\nNombre: BHP Group Limited\nFuente: nasdaq\nEstado
- : confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CAAP — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261117T161500
-DTEND;TZID=America/New_York:20261117T163000
-DTSTAMP:20261116T131450Z
-UID:CAAP-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: CAAP\nNombre: Corporacion America Airports SA\nFuente:
-  nasdaq\nEstado: confirmado\nEPS estimado: $0.61\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DIS — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:DIS-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: DIS\nNombre: Walt Disney Company (The)\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1.67\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DLB — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261117T161500
-DTEND;TZID=America/New_York:20261117T163000
-DTSTAMP:20261116T131450Z
-UID:DLB-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: DLB\nNombre: Dolby Laboratories\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $0.91\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ESLT — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:ESLT-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ESLT\nNombre: Elbit Systems Ltd.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $3.85\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GBDC — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261117T161500
-DTEND;TZID=America/New_York:20261117T163000
-DTSTAMP:20261116T131450Z
-UID:GBDC-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: GBDC\nNombre: Golub Capital BDC\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $0.33\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GFF — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:GFF-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: GFF\nNombre: Griffon Corporation\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $1.59\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HD — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:HD-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: HD\nNombre: Home Depot\, Inc. (The)\nFuente: nasdaq\nE
- stado: confirmado\nEPS estimado: $3.87\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:JD — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:JD-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: JD\nNombre: JD.com\, Inc.\nFuente: nasdaq\nEstado: con
- firmado\nEPS estimado: $0.88\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KLAR — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:KLAR-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: KLAR\nNombre: Klarna Group plc\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: ($0.16)\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MFP — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:MFP-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: MFP\nNombre: Midera Food Processing\, Inc.\nFuente: na
- sdaq\nEstado: confirmado\nEPS estimado: $0.50\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MNSO — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:MNSO-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: MNSO\nNombre: MINISO Group Holding Limited\nFuente: na
- sdaq\nEstado: confirmado\nEPS estimado: $0.37\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NVDA — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261117T161500
-DTEND;TZID=America/New_York:20261117T163000
-DTSTAMP:20261116T131450Z
-UID:NVDA-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: NVDA\nNombre: NVIDIA Corporation\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $2.49\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SQM — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261117T161500
-DTEND;TZID=America/New_York:20261117T163000
-DTSTAMP:20261116T131450Z
-UID:SQM-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: SQM\nNombre: Sociedad Quimica y Minera S.A.\nFuente: n
- asdaq\nEstado: confirmado\nEPS estimado: $1.94\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SR — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:SR-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: SR\nNombre: Spire Inc.\nFuente: nasdaq\nEstado: confir
- mado\nEPS estimado: $1\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TME — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:TME-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: TME\nNombre: Tencent Music Entertainment Group\nFuente
- : nasdaq\nEstado: confirmado\nEPS estimado: $0.20\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VIK — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261117T080000
-DTEND;TZID=America/New_York:20261117T081500
-DTSTAMP:20261116T131450Z
-UID:VIK-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: VIK\nNombre: Viking Holdings Ltd\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $1.23\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ZTO — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261117T161500
-DTEND;TZID=America/New_York:20261117T163000
-DTSTAMP:20261116T131450Z
-UID:ZTO-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ZTO\nNombre: ZTO Express (Cayman) Inc.\nFuente: nasdaq
- \nEstado: confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BLSH — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261118T080000
-DTEND;TZID=America/New_York:20261118T081500
-DTSTAMP:20261116T131450Z
-UID:BLSH-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BLSH\nNombre: Bullish\nFuente: nasdaq\nEstado: confirm
- ado\nEPS estimado: $0.06\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CPA — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:CPA-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: CPA\nNombre: Copa Holdings\, S.A.\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: $4\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GLBE — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261118T080000
-DTEND;TZID=America/New_York:20261118T081500
-DTSTAMP:20261116T131450Z
-UID:GLBE-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: GLBE\nNombre: Global-E Online Ltd.\nFuente: nasdaq\nEs
- tado: confirmado\nEPS estimado: $0.25\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GLNG — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261118T080000
-DTEND;TZID=America/New_York:20261118T081500
-DTSTAMP:20261116T131450Z
-UID:GLNG-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: GLNG\nNombre: Golar LNG Limited\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: ($0.01)\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HAFN — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261118T080000
-DTEND;TZID=America/New_York:20261118T081500
-DTSTAMP:20261116T131450Z
-UID:HAFN-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: HAFN\nNombre: Hafnia Limited\nFuente: nasdaq\nEstado: 
- confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:HP — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:HP-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: HP\nNombre: Helmerich & Payne\, Inc.\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $0.26\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:JOYY — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:JOYY-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: JOYY\nNombre: JOYY Inc.\nFuente: nasdaq\nEstado: confi
- rmado\nEPS estimado: $1.16\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KLIC — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:KLIC-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: KLIC\nNombre: Kulicke and Soffa Industries\, Inc.\nFue
- nte: nasdaq\nEstado: confirmado\nEPS estimado: $1.31\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:LOW — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261118T080000
-DTEND;TZID=America/New_York:20261118T081500
-DTSTAMP:20261116T131450Z
-UID:LOW-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: LOW\nNombre: Lowe's Companies\, Inc.\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $2.86\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NJR — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:NJR-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: NJR\nNombre: NewJersey Resources Corporation\nFuente: 
- nasdaq\nEstado: confirmado\nEPS estimado: $0.12\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:P — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:P-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: P\nNombre: Everpure\, Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $0.27\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PANW — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:PANW-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: PANW\nNombre: Palo Alto Networks\, Inc.\nFuente: nasda
- q\nEstado: confirmado\nEPS estimado: $0.52\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SBLK — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:SBLK-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: SBLK\nNombre: Star Bulk Carriers Corp.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1.27\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:SNEX — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:SNEX-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: SNEX\nNombre: StoneX Group Inc.\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $0.86\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TGT — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261118T080000
-DTEND;TZID=America/New_York:20261118T081500
-DTSTAMP:20261116T131450Z
-UID:TGT-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: TGT\nNombre: Target Corporation\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $2.04\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:TJX — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261118T080000
-DTEND;TZID=America/New_York:20261118T081500
-DTSTAMP:20261116T131450Z
-UID:TJX-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: TJX\nNombre: TJX Companies\, Inc. (The)\nFuente: nasda
- q\nEstado: confirmado\nEPS estimado: $1.33\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:UGI — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:UGI-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: UGI\nNombre: UGI Corporation\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: ($0.32)\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:WWD — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261118T161500
-DTEND;TZID=America/New_York:20261118T163000
-DTSTAMP:20261116T131450Z
-UID:WWD-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: WWD\nNombre: Woodward\, Inc.\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: $2.50\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ZIM — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261118T080000
-DTEND;TZID=America/New_York:20261118T081500
-DTSTAMP:20261116T131450Z
-UID:ZIM-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ZIM\nNombre: ZIM Integrated Shipping Services Ltd.\nFu
- ente: nasdaq\nEstado: confirmado\nEPS estimado: $4.77\nGenerado: 2026-11-1
- 6
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BABA — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:BABA-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BABA\nNombre: Alibaba Group Holding Limited\nFuente: n
- asdaq\nEstado: confirmado\nEPS estimado: $1.56\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BBWI — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:BBWI-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BBWI\nNombre: Bath & Body Works\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $0.11\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BULL — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261119T161500
-DTEND;TZID=America/New_York:20261119T163000
-DTSTAMP:20261116T131450Z
-UID:BULL-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BULL\nNombre: Webull Corporation\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $0.05\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CPRT — resultados (confirmado)
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-DTSTAMP:20261116T131450Z
-UID:CPRT-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: CPRT\nNombre: Copart\, Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $0.41\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DAO — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:DAO-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: DAO\nNombre: Youdao\, Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ESE — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261119T161500
-DTEND;TZID=America/New_York:20261119T163000
-DTSTAMP:20261116T131450Z
-UID:ESE-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ESE\nNombre: ESCO Technologies Inc.\nFuente: nasdaq\nE
- stado: confirmado\nEPS estimado: $2.59\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ESTC — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261119T161500
-DTEND;TZID=America/New_York:20261119T163000
-DTSTAMP:20261116T131450Z
-UID:ESTC-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ESTC\nNombre: Elastic N.V.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $0.14\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FUTU — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:FUTU-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: FUTU\nNombre: Futu Holdings Limited\nFuente: nasdaq\nE
- stado: confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GAP — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261119T161500
-DTEND;TZID=America/New_York:20261119T163000
-DTSTAMP:20261116T131450Z
-UID:GAP-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: GAP\nNombre: Gap\, Inc. (The)\nFuente: nasdaq\nEstado:
-  confirmado\nEPS estimado: $0.77\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:INTU — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261119T161500
-DTEND;TZID=America/New_York:20261119T163000
-DTSTAMP:20261116T131450Z
-UID:INTU-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: INTU\nNombre: Intuit Inc.\nFuente: nasdaq\nEstado: con
- firmado\nEPS estimado: $2.47\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KEYS — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261119T161500
-DTEND;TZID=America/New_York:20261119T163000
-DTSTAMP:20261116T131450Z
-UID:KEYS-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: KEYS\nNombre: Keysight Technologies Inc.\nFuente: nasd
- aq\nEstado: confirmado\nEPS estimado: $3.09\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MANU — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:MANU-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: MANU\nNombre: Manchester United Ltd.\nFuente: nasdaq\n
- Estado: confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MMS — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:MMS-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: MMS\nNombre: Maximus\, Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $1.88\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NTES — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:NTES-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: NTES\nNombre: NetEase\, Inc.\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: $2.40\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PDD — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:PDD-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: PDD\nNombre: PDD Holdings Inc.\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: $2.61\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:POST — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261119T161500
-DTEND;TZID=America/New_York:20261119T163000
-DTSTAMP:20261116T131450Z
-UID:POST-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: POST\nNombre: Post Holdings\, Inc.\nFuente: nasdaq\nEs
- tado: confirmado\nEPS estimado: $1.66\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:QXO — resultados (ESTIMADO)
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-DTSTAMP:20261116T131450Z
-UID:QXO-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: QXO\nNombre: QXO INCORPORATED\nFuente: alphavantage\nE
- stado: estimado\nEPS estimado: 0.13\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ROAD — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:ROAD-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ROAD\nNombre: Construction Partners\, Inc.\nFuente: na
- sdaq\nEstado: confirmado\nEPS estimado: $1.19\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ROST — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261119T161500
-DTEND;TZID=America/New_York:20261119T163000
-DTSTAMP:20261116T131450Z
-UID:ROST-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: ROST\nNombre: Ross Stores\, Inc.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $1.82\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VIPS — resultados (confirmado)
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-DTSTAMP:20261116T131450Z
-UID:VIPS-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: VIPS\nNombre: Vipshop Holdings Limited\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $0.31\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:VVV — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:VVV-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: VVV\nNombre: Valvoline Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $0.42\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:WMG — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:WMG-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: WMG\nNombre: Warner Music Group Corp.\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $0.38\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:WMT — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:WMT-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: WMT\nNombre: Walmart Inc.\nFuente: nasdaq\nEstado: con
- firmado\nEPS estimado: $0.64\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:WSM — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:WSM-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: WSM\nNombre: Williams-Sonoma\, Inc.\nFuente: nasdaq\nE
- stado: confirmado\nEPS estimado: $2.17\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:YMM — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261119T080000
-DTEND;TZID=America/New_York:20261119T081500
-DTSTAMP:20261116T131450Z
-UID:YMM-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: YMM\nNombre: Full Truck Alliance Co. Ltd.\nFuente: nas
- daq\nEstado: confirmado\nEPS estimado: $0.19\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BJ — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261120T080000
-DTEND;TZID=America/New_York:20261120T081500
-DTSTAMP:20261116T131450Z
-UID:BJ-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BJ\nNombre: BJ's Wholesale Club Holdings\, Inc.\nFuent
- e: nasdaq\nEstado: confirmado\nEPS estimado: $1.24\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BKE — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261120T080000
-DTEND;TZID=America/New_York:20261120T081500
-DTSTAMP:20261116T131450Z
-UID:BKE-2026-Q4@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BKE\nNombre: Buckle\, Inc. (The)\nFuente: nasdaq\nEsta
- do: confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BSP — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261120T080000
-DTEND;TZID=America/New_York:20261120T081500
-DTSTAMP:20261116T131450Z
-UID:BSP-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BSP\nNombre: Bending Spoons S.p.A.\nFuente: nasdaq\nEs
- tado: confirmado\nEPS estimado: $0.26\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FRHC — resultados (confirmado)
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-DTSTAMP:20261116T131450Z
-UID:FRHC-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: FRHC\nNombre: Freedom Holding Corp.\nFuente: nasdaq\nE
- stado: confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:FRO — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261120T080000
-DTEND;TZID=America/New_York:20261120T081500
-DTSTAMP:20261116T131450Z
-UID:FRO-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: FRO\nNombre: Frontline Plc\nFuente: nasdaq\nEstado: co
- nfirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IESC — resultados (confirmado)
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-DTSTAMP:20261116T131450Z
-UID:IESC-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: IESC\nNombre: IES Holdings\, Inc.\nFuente: nasdaq\nEst
- ado: confirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KT — resultados (confirmado)
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-DTSTAMP:20261116T131450Z
-UID:KT-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: KT\nNombre: KT Corporation\nFuente: nasdaq\nEstado: co
- nfirmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MOG.B — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261120T080000
-DTEND;TZID=America/New_York:20261120T081500
-DTSTAMP:20261116T131450Z
-UID:MOG.B-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: MOG.B\nNombre: Moog Inc.\nFuente: nasdaq\nEstado: conf
- irmado\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:A — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261123T161500
 DTEND;TZID=America/New_York:20261123T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:A-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: A\nNombre: Agilent Technologies\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1.72\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $1.72\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AMTM — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261123T161500
 DTEND;TZID=America/New_York:20261123T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AMTM-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: AMTM\nNombre: Amentum Holdings\, Inc.\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $0.63\nGenerado: 2026-11-16
+ nEstado: confirmado\nEPS estimado: $0.63\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CENT — resultados (confirmado)
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-DTSTAMP:20261116T131450Z
+SUMMARY:CENT — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261123T161500
+DTEND;TZID=America/New_York:20261123T163000
+DTSTAMP:20261123T153047Z
 UID:CENT-2026-Q3@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: CENT\nNombre: Central Garden & Pet Company\nFuente: na
- sdaq\nEstado: confirmado\nEPS estimado: ($0.06)\nGenerado: 2026-11-16
+ sdaq\nEstado: confirmado\nEPS estimado: ($0.06)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CENTA — resultados (confirmado)
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-DTSTAMP:20261116T131450Z
+SUMMARY:CENTA — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261123T161500
+DTEND;TZID=America/New_York:20261123T163000
+DTSTAMP:20261123T153047Z
 UID:CENTA-2026-Q3@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: CENTA\nNombre: Central Garden & Pet Company\nFuente: n
- asdaq\nEstado: confirmado\nEPS estimado: ($0.06)\nGenerado: 2026-11-16
+ asdaq\nEstado: confirmado\nEPS estimado: ($0.06)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DAC — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261123T161500
 DTEND;TZID=America/New_York:20261123T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DAC-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DAC\nNombre: Danaos Corporation\nFuente: nasdaq\nEstad
- o: confirmado\nGenerado: 2026-11-16
+ o: confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HPE — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261123T161500
 DTEND;TZID=America/New_York:20261123T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:HPE-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: HPE\nNombre: Hewlett Packard Enterprise Company\nFuent
- e: nasdaq\nEstado: confirmado\nEPS estimado: $1.17\nGenerado: 2026-11-16
+ e: nasdaq\nEstado: confirmado\nEPS estimado: $1.18\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:J — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261123T161500
 DTEND;TZID=America/New_York:20261123T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:J-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: J\nNombre: Jacobs Solutions Inc.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $2.14\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $2.11\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SMTC — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261123T161500
 DTEND;TZID=America/New_York:20261123T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SMTC-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: SMTC\nNombre: Semtech Corporation\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: $0.92\nGenerado: 2026-11-16
+ ado: confirmado\nEPS estimado: $0.92\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SYM — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261123T161500
 DTEND;TZID=America/New_York:20261123T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SYM-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: SYM\nNombre: Symbotic Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $0.08\nGenerado: 2026-11-16
+ nfirmado\nEPS estimado: $0.08\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TCOM — resultados (confirmado)
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261123T153047Z
+UID:TCOM-2026-Q3@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: TCOM\nNombre: Trip.com Group Limited\nFuente: nasdaq\n
+ Estado: confirmado\nEPS estimado: $1.07\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZM — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261123T161500
 DTEND;TZID=America/New_York:20261123T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ZM-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ZM\nNombre: Zoom Communications\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $1\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ADI — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ADI-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ADI\nNombre: Analog Devices\, Inc.\nFuente: nasdaq\nEs
- tado: confirmado\nEPS estimado: $3.89\nGenerado: 2026-11-16
+ tado: confirmado\nEPS estimado: $3.89\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ADSK — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261124T161500
 DTEND;TZID=America/New_York:20261124T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ADSK-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ADSK\nNombre: Autodesk\, Inc.\nFuente: nasdaq\nEstado:
-  confirmado\nEPS estimado: $2.27\nGenerado: 2026-11-16
+  confirmado\nEPS estimado: $2.27\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AMBA — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261124T161500
 DTEND;TZID=America/New_York:20261124T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AMBA-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: AMBA\nNombre: Ambarella\, Inc.\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: ($0.17)\nGenerado: 2026-11-16
+ : confirmado\nEPS estimado: ($0.17)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ANF — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ANF-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ANF\nNombre: Abercrombie & Fitch Company\nFuente: nasd
- aq\nEstado: confirmado\nEPS estimado: $3.01\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BBAR — resultados (confirmado\, tras el cierre)
-DTSTART;TZID=America/New_York:20261124T161500
-DTEND;TZID=America/New_York:20261124T163000
-DTSTAMP:20261116T131450Z
-UID:BBAR-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: BBAR\nNombre: Banco BBVA Argentina S.A.\nFuente: nasda
- q\nEstado: confirmado\nEPS estimado: $0.41\nGenerado: 2026-11-16
+ aq\nEstado: confirmado\nEPS estimado: $3.15\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BBY — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BBY-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BBY\nNombre: Best Buy Co.\, Inc.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $1.48\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $1.48\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BHP — resultados (confirmado)
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DTSTAMP:20261123T153047Z
+UID:BHP-2026-Q3@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: BHP\nNombre: BHP Group Limited\nFuente: nasdaq\nEstado
+ : confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BILI — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BILI-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BILI\nNombre: Bilibili Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $0.17\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: $0.17\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BURL — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BURL-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BURL\nNombre: Burlington Stores\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1.69\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $1.67\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BWLP — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BWLP-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BWLP\nNombre: BW LPG Limited\nFuente: nasdaq\nEstado: 
- confirmado\nGenerado: 2026-11-16
+ confirmado\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMBT — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261124T080000
+DTEND;TZID=America/New_York:20261124T081500
+DTSTAMP:20261123T153047Z
+UID:CMBT-2026-Q3@trading-calendars
+SEQUENCE:2
+DESCRIPTION:Ticker: CMBT\nNombre: CMB.TECH NV\nFuente: nasdaq\nEstado: con
+ firmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DELL — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261124T161500
 DTEND;TZID=America/New_York:20261124T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DELL-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DELL\nNombre: Dell Technologies Inc.\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $6.41\nGenerado: 2026-11-16
+ Estado: confirmado\nEPS estimado: $6.55\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DKS — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DKS-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DKS\nNombre: Dick's Sporting Goods Inc\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1.38\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $1.38\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DLTR — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DLTR-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DLTR\nNombre: Dollar Tree\, Inc.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $0.88\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $0.89\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DY — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DY-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DY\nNombre: Dycom Industries\, Inc.\nFuente: nasdaq\nE
- stado: confirmado\nEPS estimado: $4.33\nGenerado: 2026-11-16
+ stado: confirmado\nEPS estimado: $4.33\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GGAL — resultados (confirmado)
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:GGAL-2026-Q3@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: GGAL\nNombre: Grupo Financiero Galicia S.A.\nFuente: n
- asdaq\nEstado: confirmado\nEPS estimado: $1.05\nGenerado: 2026-11-16
+ asdaq\nEstado: confirmado\nEPS estimado: $1.05\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HPQ — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261124T161500
 DTEND;TZID=America/New_York:20261124T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:HPQ-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: HPQ\nNombre: HP Inc.\nFuente: nasdaq\nEstado: confirma
- do\nEPS estimado: $0.75\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KC — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261124T080000
-DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
-UID:KC-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: KC\nNombre: Kingsoft Cloud Holdings Limited\nFuente: n
- asdaq\nEstado: confirmado\nEPS estimado: ($0.08)\nGenerado: 2026-11-16
+ do\nEPS estimado: $0.74\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KSS — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:KSS-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: KSS\nNombre: Kohl's Corporation\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: ($0.01)\nGenerado: 2026-11-16
+ o: confirmado\nEPS estimado: ($0.01)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MDT — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MDT-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: MDT\nNombre: Medtronic plc\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $1.34\nGenerado: 2026-11-16
+ nfirmado\nEPS estimado: $1.34\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MMED — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MMED-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: MMED\nNombre: MiniMed Group\, Inc.\nFuente: nasdaq\nEs
- tado: confirmado\nEPS estimado: $0.10\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NIO — resultados (confirmado)
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-DTSTAMP:20261116T131450Z
-UID:NIO-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: NIO\nNombre: NIO Inc.\nFuente: nasdaq\nEstado: confirm
- ado\nEPS estimado: ($0.03)\nGenerado: 2026-11-16
+ tado: confirmado\nEPS estimado: $0.10\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NTNX — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261124T161500
 DTEND;TZID=America/New_York:20261124T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:NTNX-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: NTNX\nNombre: Nutanix\, Inc.\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: $0.29\nGenerado: 2026-11-16
+ confirmado\nEPS estimado: $0.29\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SJM — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261124T080000
 DTEND;TZID=America/New_York:20261124T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SJM-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: SJM\nNombre: The J.M. Smucker Company\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $2.50\nGenerado: 2026-11-16
+ nEstado: confirmado\nEPS estimado: $2.57\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:URBN — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261124T161500
 DTEND;TZID=America/New_York:20261124T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:URBN-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: URBN\nNombre: Urban Outfitters\, Inc.\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $1.54\nGenerado: 2026-11-16
+ nEstado: confirmado\nEPS estimado: $1.53\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VIPS — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261124T080000
+DTEND;TZID=America/New_York:20261124T081500
+DTSTAMP:20261123T153047Z
+UID:VIPS-2026-Q3@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: VIPS\nNombre: Vipshop Holdings Limited\nFuente: nasdaq
+ \nEstado: confirmado\nEPS estimado: $0.31\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:WDAY — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261124T161500
 DTEND;TZID=America/New_York:20261124T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:WDAY-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: WDAY\nNombre: Workday\, Inc.\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: $1.28\nGenerado: 2026-11-16
+ confirmado\nEPS estimado: $1.28\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BMA — resultados (confirmado)
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BMA-2026-Q3@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: BMA\nNombre: Macro Bank Inc.\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: $1.44\nGenerado: 2026-11-16
+ confirmado\nEPS estimado: $1.44\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BZ — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261125T080000
 DTEND;TZID=America/New_York:20261125T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BZ-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BZ\nNombre: KANZHUN LIMITED\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $0.27\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: $0.11\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DE — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261125T080000
 DTEND;TZID=America/New_York:20261125T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DE-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: DE\nNombre: Deere & Company\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $4.07\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: $4.07\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GDS — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261125T080000
 DTEND;TZID=America/New_York:20261125T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:GDS-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: GDS\nNombre: GDS Holdings Limited\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: $1.31\nGenerado: 2026-11-16
+ ado: confirmado\nEPS estimado: $1.31\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LI — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261125T080000
 DTEND;TZID=America/New_York:20261125T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:LI-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: LI\nNombre: Li Auto Inc.\nFuente: nasdaq\nEstado: conf
- irmado\nEPS estimado: ($0.08)\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CMBT — resultados (confirmado\, antes de apertura)
-DTSTART;TZID=America/New_York:20261126T080000
-DTEND;TZID=America/New_York:20261126T081500
-DTSTAMP:20261116T131450Z
-UID:CMBT-2026-Q3@trading-calendars
-SEQUENCE:1
-DESCRIPTION:Ticker: CMBT\nNombre: CMB.TECH NV\nFuente: nasdaq\nEstado: con
- firmado\nGenerado: 2026-11-16
+ irmado\nEPS estimado: ($0.08)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHA — resultados (confirmado)
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CHA-2026-Q3@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CHA\nNombre: Chagee Holdings Limited\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $0.34\nGenerado: 2026-11-16
+ Estado: confirmado\nEPS estimado: $0.34\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:KT — resultados (confirmado)
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+DTSTAMP:20261123T153047Z
+UID:KT-2026-Q3@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: KT\nNombre: KT Corporation\nFuente: nasdaq\nEstado: co
+ nfirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RBRK — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261130T161500
 DTEND;TZID=America/New_York:20261130T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:RBRK-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: RBRK\nNombre: Rubrik\, Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: ($0.38)\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AEO — resultados (confirmado)
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-DTSTAMP:20261116T131450Z
-UID:AEO-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: AEO\nNombre: American Eagle Outfitters\, Inc.\nFuente:
-  nasdaq\nEstado: confirmado\nEPS estimado: $0.49\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: ($0.38)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ASAN — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ASAN-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ASAN\nNombre: Asana\, Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: ($0.17)\nGenerado: 2026-11-16
+ nfirmado\nEPS estimado: ($0.17)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BOX — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BOX-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BOX\nNombre: Box\, Inc.\nFuente: nasdaq\nEstado: confi
- rmado\nEPS estimado: $0.09\nGenerado: 2026-11-16
+ rmado\nEPS estimado: $0.09\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CPRT — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261201T080000
+DTEND;TZID=America/New_York:20261201T081500
+DTSTAMP:20261123T153047Z
+UID:CPRT-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: CPRT\nNombre: Copart\, Inc.\nFuente: nasdaq\nEstado: c
+ onfirmado\nEPS estimado: $0.41\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CRDO — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CRDO-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: CRDO\nNombre: Credo Technology Group Holding Ltd\nFuen
- te: nasdaq\nEstado: confirmado\nEPS estimado: $1.03\nGenerado: 2026-11-16
+ te: nasdaq\nEstado: confirmado\nEPS estimado: $1.03\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CRWD — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CRWD-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: CRWD\nNombre: CrowdStrike Holdings\, Inc.\nFuente: nas
- daq\nEstado: confirmado\nEPS estimado: $0\nGenerado: 2026-11-16
+ daq\nEstado: confirmado\nEPS estimado: $0\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:GTLB — resultados (confirmado)
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-DTSTAMP:20261116T131450Z
+SUMMARY:GTLB — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261201T161500
+DTEND;TZID=America/New_York:20261201T163000
+DTSTAMP:20261123T153047Z
 UID:GTLB-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: GTLB\nNombre: GitLab Inc.\nFuente: nasdaq\nEstado: con
- firmado\nEPS estimado: ($0.09)\nGenerado: 2026-11-16
+ firmado\nEPS estimado: ($0.09)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HQY — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:HQY-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: HQY\nNombre: HealthEquity\, Inc.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $0.96\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $0.96\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MDB — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MDB-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: MDB\nNombre: MongoDB\, Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $0.08\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: $0.08\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MRVL — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MRVL-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: MRVL\nNombre: Marvell Technology\, Inc.\nFuente: nasda
- q\nEstado: confirmado\nEPS estimado: $0.79\nGenerado: 2026-11-16
+ q\nEstado: confirmado\nEPS estimado: $0.79\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NCNO — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:NCNO-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: NCNO\nNombre: nCino\, Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $0.16\nGenerado: 2026-11-16
+ nfirmado\nEPS estimado: $0.16\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NIO — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261201T080000
+DTEND;TZID=America/New_York:20261201T081500
+DTSTAMP:20261123T153047Z
+UID:NIO-2026-Q3@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: NIO\nNombre: NIO Inc.\nFuente: nasdaq\nEstado: confirm
+ ado\nEPS estimado: ($0.03)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NTAP — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:NTAP-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: NTAP\nNombre: NetApp\, Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $2.13\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: $2.14\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:OKTA — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261201T161500
 DTEND;TZID=America/New_York:20261201T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:OKTA-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: OKTA\nNombre: Okta\, Inc.\nFuente: nasdaq\nEstado: con
- firmado\nEPS estimado: $0.43\nGenerado: 2026-11-16
+ firmado\nEPS estimado: $0.43\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AEO — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261202T161500
+DTEND;TZID=America/New_York:20261202T163000
+DTSTAMP:20261123T153047Z
+UID:AEO-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: AEO\nNombre: American Eagle Outfitters\, Inc.\nFuente:
+  nasdaq\nEstado: confirmado\nEPS estimado: $0.50\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BMO — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261202T080000
 DTEND;TZID=America/New_York:20261202T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BMO-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BMO\nNombre: Bank Of Montreal\nFuente: nasdaq\nEstado:
-  confirmado\nEPS estimado: $2.76\nGenerado: 2026-11-16
+  confirmado\nEPS estimado: $2.69\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BNS — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261202T080000
 DTEND;TZID=America/New_York:20261202T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BNS-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BNS\nNombre: Bank of Nova Scotia (The)\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1.58\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $1.55\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CRM — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261202T161500
 DTEND;TZID=America/New_York:20261202T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CRM-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: CRM\nNombre: Salesforce\, Inc.\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: $2.41\nGenerado: 2026-11-16
+ : confirmado\nEPS estimado: $2.41\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DCI — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261202T080000
 DTEND;TZID=America/New_York:20261202T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DCI-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DCI\nNombre: Donaldson Company\, Inc.\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $0.97\nGenerado: 2026-11-16
+ nEstado: confirmado\nEPS estimado: $0.97\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DSGX — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261202T161500
 DTEND;TZID=America/New_York:20261202T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DSGX-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DSGX\nNombre: The Descartes Systems Group Inc.\nFuente
- : nasdaq\nEstado: confirmado\nEPS estimado: $0.61\nGenerado: 2026-11-16
+ : nasdaq\nEstado: confirmado\nEPS estimado: $0.61\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:FIVE — resultados (confirmado)
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-DTSTAMP:20261116T131450Z
+SUMMARY:FIVE — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261202T161500
+DTEND;TZID=America/New_York:20261202T163000
+DTSTAMP:20261123T153047Z
 UID:FIVE-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: FIVE\nNombre: Five Below\, Inc.\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $1.15\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GWRE — resultados (confirmado)
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-DTSTAMP:20261116T131450Z
-UID:GWRE-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: GWRE\nNombre: Guidewire Software\, Inc.\nFuente: nasda
- q\nEstado: confirmado\nEPS estimado: $0.36\nGenerado: 2026-11-16
+ o: confirmado\nEPS estimado: $1.17\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KEN — resultados (confirmado)
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:KEN-2026-Q3@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: KEN\nNombre: Kenon Holdings Ltd.\nFuente: nasdaq\nEsta
- do: confirmado\nGenerado: 2026-11-16
+ do: confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:M — resultados (confirmado)
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-DTSTAMP:20261116T131450Z
+SUMMARY:M — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261202T080000
+DTEND;TZID=America/New_York:20261202T081500
+DTSTAMP:20261123T153047Z
 UID:M-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: M\nNombre: Macy's Inc\nFuente: nasdaq\nEstado: confirm
- ado\nEPS estimado: ($0.19)\nGenerado: 2026-11-16
+ ado\nEPS estimado: ($0.16)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NTSK — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261202T161500
 DTEND;TZID=America/New_York:20261202T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:NTSK-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: NTSK\nNombre: Netskope\, Inc.\nFuente: nasdaq\nEstado:
-  confirmado\nEPS estimado: ($0.21)\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PVH — resultados (confirmado)
-DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
-DTSTAMP:20261116T131450Z
-UID:PVH-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: PVH\nNombre: PVH Corp.\nFuente: nasdaq\nEstado: confir
- mado\nEPS estimado: $2.63\nGenerado: 2026-11-16
+  confirmado\nEPS estimado: ($0.21)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SIG — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261202T080000
 DTEND;TZID=America/New_York:20261202T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SIG-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: SIG\nNombre: Signet Jewelers Limited\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $0.87\nGenerado: 2026-11-16
+ Estado: confirmado\nEPS estimado: $0.84\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SNOW — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261202T161500
 DTEND;TZID=America/New_York:20261202T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SNOW-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: SNOW\nNombre: Snowflake Inc.\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: ($0.32)\nGenerado: 2026-11-16
+ confirmado\nEPS estimado: ($0.32)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:THO — resultados (confirmado)
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:THO-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: THO\nNombre: Thor Industries\, Inc.\nFuente: nasdaq\nE
- stado: confirmado\nEPS estimado: $0.17\nGenerado: 2026-11-16
+ stado: confirmado\nEPS estimado: $0.17\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VFS — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261202T080000
 DTEND;TZID=America/New_York:20261202T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:VFS-2026-Q3@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: VFS\nNombre: VinFast Auto Ltd.\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: ($0.36)\nGenerado: 2026-11-16
+ : confirmado\nEPS estimado: ($0.36)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZS — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261202T161500
 DTEND;TZID=America/New_York:20261202T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ZS-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ZS\nNombre: Zscaler\, Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $0.12\nGenerado: 2026-11-16
+ nfirmado\nEPS estimado: $0.12\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:AGX — resultados (confirmado)
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-DTSTAMP:20261116T131450Z
+SUMMARY:AGX — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261203T161500
+DTEND;TZID=America/New_York:20261203T163000
+DTSTAMP:20261123T153047Z
 UID:AGX-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: AGX\nNombre: Argan\, Inc.\nFuente: nasdaq\nEstado: con
- firmado\nEPS estimado: $3.34\nGenerado: 2026-11-16
+ firmado\nEPS estimado: $3.34\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CM — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261203T080000
 DTEND;TZID=America/New_York:20261203T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CM-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: CM\nNombre: Canadian Imperial Bank of Commerce\nFuente
- : nasdaq\nEstado: confirmado\nEPS estimado: $1.77\nGenerado: 2026-11-16
+ : nasdaq\nEstado: confirmado\nEPS estimado: $1.72\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:COO — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:COO-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: COO\nNombre: The Cooper Companies\, Inc.\nFuente: nasd
- aq\nEstado: confirmado\nEPS estimado: $1.07\nGenerado: 2026-11-16
+ aq\nEstado: confirmado\nEPS estimado: $1.07\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DG — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261203T080000
 DTEND;TZID=America/New_York:20261203T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DG-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DG\nNombre: Dollar General Corporation\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $1.40\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $1.40\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DOCU — resultados (confirmado)
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-DTSTAMP:20261116T131450Z
+SUMMARY:DOCU — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261203T161500
+DTEND;TZID=America/New_York:20261203T163000
+DTSTAMP:20261123T153047Z
 UID:DOCU-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: DOCU\nNombre: DocuSign\, Inc.\nFuente: nasdaq\nEstado:
-  confirmado\nEPS estimado: $0.53\nGenerado: 2026-11-16
+  confirmado\nEPS estimado: $0.53\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DOO — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261203T080000
 DTEND;TZID=America/New_York:20261203T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DOO-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: DOO\nNombre: BRP Inc.\nFuente: nasdaq\nEstado: confirm
- ado\nEPS estimado: $0.56\nGenerado: 2026-11-16
+ ado\nEPS estimado: $0.56\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GWRE — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261203T161500
+DTEND;TZID=America/New_York:20261203T163000
+DTSTAMP:20261123T153047Z
+UID:GWRE-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: GWRE\nNombre: Guidewire Software\, Inc.\nFuente: nasda
+ q\nEstado: confirmado\nEPS estimado: $0.36\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HRL — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261203T080000
 DTEND;TZID=America/New_York:20261203T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:HRL-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: HRL\nNombre: Hormel Foods Corporation\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $0.38\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IDT — resultados (confirmado)
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-DTSTAMP:20261116T131450Z
-UID:IDT-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: IDT\nNombre: IDT Corporation\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: $0.94\nGenerado: 2026-11-16
+ nEstado: confirmado\nEPS estimado: $0.38\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IOT — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:IOT-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: IOT\nNombre: Samsara Inc.\nFuente: nasdaq\nEstado: con
- firmado\nEPS estimado: $0.03\nGenerado: 2026-11-16
+ firmado\nEPS estimado: $0.03\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KR — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261203T080000
 DTEND;TZID=America/New_York:20261203T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:KR-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: KR\nNombre: Kroger Company (The)\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $1.16\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $1.17\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PATH — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:PATH-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: PATH\nNombre: UiPath\, Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $0.10\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: $0.10\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PVH — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261203T080000
+DTEND;TZID=America/New_York:20261203T081500
+DTSTAMP:20261123T153047Z
+UID:PVH-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: PVH\nNombre: PVH Corp.\nFuente: nasdaq\nEstado: confir
+ mado\nEPS estimado: $2.60\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RY — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261203T080000
 DTEND;TZID=America/New_York:20261203T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:RY-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: RY\nNombre: Royal Bank Of Canada\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $2.97\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $2.93\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:S — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:S-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: S\nNombre: SentinelOne\, Inc.\nFuente: nasdaq\nEstado:
-  confirmado\nEPS estimado: ($0.11)\nGenerado: 2026-11-16
+  confirmado\nEPS estimado: ($0.11)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:SAIC — resultados (confirmado)
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-DTSTAMP:20261116T131450Z
+SUMMARY:SAIC — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261203T080000
+DTEND;TZID=America/New_York:20261203T081500
+DTSTAMP:20261123T153047Z
 UID:SAIC-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: SAIC\nNombre: Science Applications International Corpo
  ration\nFuente: nasdaq\nEstado: confirmado\nEPS estimado: $2.33\nGenerado:
-  2026-11-16
+  2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TD — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261203T080000
 DTEND;TZID=America/New_York:20261203T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TD-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: TD\nNombre: Toronto Dominion Bank (The)\nFuente: nasda
- q\nEstado: confirmado\nEPS estimado: $1.80\nGenerado: 2026-11-16
+ q\nEstado: confirmado\nEPS estimado: $1.77\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TTAN — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TTAN-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: TTAN\nNombre: ServiceTitan\, Inc.\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: ($0.20)\nGenerado: 2026-11-16
+ ado: confirmado\nEPS estimado: ($0.20)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ULTA — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ULTA-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ULTA\nNombre: Ulta Beauty\, Inc.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $5.60\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $5.61\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VEEV — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261203T161500
 DTEND;TZID=America/New_York:20261203T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:VEEV-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: VEEV\nNombre: Veeva Systems Inc.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $1.68\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $1.68\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VSXY — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261203T080000
 DTEND;TZID=America/New_York:20261203T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:VSXY-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: VSXY\nNombre: Victorias Secret & Co.\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $0.04\nGenerado: 2026-11-16
+ Estado: confirmado\nEPS estimado: $0.04\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:WLY — resultados (confirmado)
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:WLY-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: WLY\nNombre: John Wiley & Sons\, Inc.\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $1.24\nGenerado: 2026-11-16
+ nEstado: confirmado\nEPS estimado: $1.24\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:WLYB — resultados (confirmado)
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:WLYB-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: WLYB\nNombre: John Wiley & Sons\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nGenerado: 2026-11-16
+ \nEstado: confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TOL — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261207T161500
 DTEND;TZID=America/New_York:20261207T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TOL-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: TOL\nNombre: Toll Brothers\, Inc.\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: $4.89\nGenerado: 2026-11-16
+ ado: confirmado\nEPS estimado: $4.89\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ASO — resultados (confirmado)
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ASO-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ASO\nNombre: Academy Sports and Outdoors\, Inc.\nFuent
- e: nasdaq\nEstado: confirmado\nEPS estimado: $1.21\nGenerado: 2026-11-16
+ e: nasdaq\nEstado: confirmado\nEPS estimado: $1.21\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AVAV — resultados (confirmado)
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AVAV-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AVAV\nNombre: AeroVironment\, Inc.\nFuente: nasdaq\nEs
- tado: confirmado\nEPS estimado: $0.46\nGenerado: 2026-11-16
+ tado: confirmado\nEPS estimado: $0.46\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AZO — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261208T080000
 DTEND;TZID=America/New_York:20261208T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AZO-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: AZO\nNombre: AutoZone\, Inc.\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: $36.06\nGenerado: 2026-11-16
+ confirmado\nEPS estimado: $35.98\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BRC — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261208T080000
+DTEND;TZID=America/New_York:20261208T081500
+DTSTAMP:20261123T153047Z
+UID:BRC-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: BRC\nNombre: Brady Corporation\nFuente: nasdaq\nEstado
+ : confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BRZE — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261208T161500
 DTEND;TZID=America/New_York:20261208T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BRZE-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: BRZE\nNombre: Braze\, Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: ($0.22)\nGenerado: 2026-11-16
+ nfirmado\nEPS estimado: ($0.22)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CASY — resultados (confirmado)
-DTSTART;VALUE=DATE:20261208
-DTEND;VALUE=DATE:20261209
-DTSTAMP:20261116T131450Z
+SUMMARY:CASY — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261208T161500
+DTEND;TZID=America/New_York:20261208T163000
+DTSTAMP:20261123T153047Z
 UID:CASY-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: CASY\nNombre: Caseys General Stores\, Inc.\nFuente: na
- sdaq\nEstado: confirmado\nEPS estimado: $6.01\nGenerado: 2026-11-16
+ sdaq\nEstado: confirmado\nEPS estimado: $6.01\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CNM — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261208T080000
 DTEND;TZID=America/New_York:20261208T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CNM-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: CNM\nNombre: Core & Main\, Inc.\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $0.88\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CPB — resultados (confirmado)
-DTSTART;VALUE=DATE:20261208
-DTEND;VALUE=DATE:20261209
-DTSTAMP:20261116T131450Z
-UID:CPB-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: CPB\nNombre: The Campbell's Company\nFuente: nasdaq\nE
- stado: confirmado\nEPS estimado: $0.44\nGenerado: 2026-11-16
+ o: confirmado\nEPS estimado: $0.86\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GME — resultados (confirmado)
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:GME-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: GME\nNombre: GameStop Corporation\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: $0.20\nGenerado: 2026-11-16
+ ado: confirmado\nEPS estimado: $0.20\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KFY — resultados (confirmado)
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:KFY-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: KFY\nNombre: Korn Ferry\nFuente: nasdaq\nEstado: confi
- rmado\nEPS estimado: $1.36\nGenerado: 2026-11-16
+ rmado\nEPS estimado: $1.36\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:OLLI — resultados (confirmado)
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:OLLI-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: OLLI\nNombre: Ollie's Bargain Outlet Holdings\, Inc.\n
- Fuente: nasdaq\nEstado: confirmado\nEPS estimado: $0.76\nGenerado: 2026-11
- -16
+ Fuente: nasdaq\nEstado: confirmado\nEPS estimado: $0.77\nGenerado: 2026-11
+ -23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SAIL — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261208T080000
 DTEND;TZID=America/New_York:20261208T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SAIL-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: SAIL\nNombre: SailPoint\, Inc.\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: $0.08\nGenerado: 2026-11-16
+ : confirmado\nEPS estimado: $0.08\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SNPS — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261208T161500
 DTEND;TZID=America/New_York:20261208T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SNPS-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: SNPS\nNombre: Synopsys\, Inc.\nFuente: nasdaq\nEstado:
-  confirmado\nEPS estimado: $3.09\nGenerado: 2026-11-16
+  confirmado\nEPS estimado: $3.09\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SUNB — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261208T080000
 DTEND;TZID=America/New_York:20261208T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SUNB-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: SUNB\nNombre: Sunbelt Rentals Holdings\, Inc.\nFuente:
-  nasdaq\nEstado: confirmado\nEPS estimado: $1.16\nGenerado: 2026-11-16
+  nasdaq\nEstado: confirmado\nEPS estimado: $1.16\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:UNFI — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261208T080000
 DTEND;TZID=America/New_York:20261208T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:UNFI-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: UNFI\nNombre: United Natural Foods\, Inc.\nFuente: nas
- daq\nEstado: confirmado\nEPS estimado: $0.67\nGenerado: 2026-11-16
+ daq\nEstado: confirmado\nEPS estimado: $0.67\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ADBE — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261209T161500
 DTEND;TZID=America/New_York:20261209T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ADBE-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ADBE\nNombre: Adobe Inc.\nFuente: nasdaq\nEstado: conf
- irmado\nEPS estimado: $5.11\nGenerado: 2026-11-16
+ irmado\nEPS estimado: $5.11\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AVGO — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261209T161500
 DTEND;TZID=America/New_York:20261209T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AVGO-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: AVGO\nNombre: Broadcom Inc.\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: $3.45\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: $3.45\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CHWY — resultados (confirmado)
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-DTSTAMP:20261116T131450Z
+SUMMARY:CHWY — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261209T080000
+DTEND;TZID=America/New_York:20261209T081500
+DTSTAMP:20261123T153047Z
 UID:CHWY-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: CHWY\nNombre: Chewy\, Inc.\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $0.20\nGenerado: 2026-11-16
+ nfirmado\nEPS estimado: $0.20\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MTN — resultados (confirmado)
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-DTSTAMP:20261116T131450Z
+SUMMARY:CPB — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261209T080000
+DTEND;TZID=America/New_York:20261209T081500
+DTSTAMP:20261123T153047Z
+UID:CPB-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: CPB\nNombre: The Campbell's Company\nFuente: nasdaq\nE
+ stado: confirmado\nEPS estimado: $0.44\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MTN — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261209T161500
+DTEND;TZID=America/New_York:20261209T163000
+DTSTAMP:20261123T153047Z
 UID:MTN-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: MTN\nNombre: Vail Resorts\, Inc.\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: ($5.42)\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:ORCL — resultados (confirmado)
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-DTSTAMP:20261116T131450Z
-UID:ORCL-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: ORCL\nNombre: Oracle Corporation\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $1.56\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: ($5.42)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:UEC — resultados (confirmado)
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:UEC-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: UEC\nNombre: Uranium Energy Corp.\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: ($0.09)\nGenerado: 2026-11-16
+ ado: confirmado\nEPS estimado: ($0.09)\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BIRK — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261210T080000
+DTEND;TZID=America/New_York:20261210T081500
+DTSTAMP:20261123T153047Z
+UID:BIRK-2026-Q3@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: BIRK\nNombre: Birkenstock Holding plc\nFuente: nasdaq\
+ nEstado: confirmado\nEPS estimado: $0.51\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CIEN — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261210T080000
 DTEND;TZID=America/New_York:20261210T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CIEN-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: CIEN\nNombre: Ciena Corporation\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $1.77\nGenerado: 2026-11-16
+ o: confirmado\nEPS estimado: $1.77\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:COST — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261210T161500
 DTEND;TZID=America/New_York:20261210T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:COST-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: COST\nNombre: Costco Wholesale Corporation\nFuente: na
- sdaq\nEstado: confirmado\nEPS estimado: $4.87\nGenerado: 2026-11-16
+ sdaq\nEstado: confirmado\nEPS estimado: $4.89\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FIZZ — resultados (confirmado)
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:FIZZ-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: FIZZ\nNombre: National Beverage Corp.\nFuente: nasdaq\
- nEstado: confirmado\nGenerado: 2026-11-16
+ nEstado: confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LULU — resultados (confirmado)
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:LULU-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: LULU\nNombre: lululemon athletica inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $0.97\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $0.98\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PL — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261210T161500
 DTEND;TZID=America/New_York:20261210T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:PL-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: PL\nNombre: Planet Labs PBC\nFuente: nasdaq\nEstado: c
- onfirmado\nEPS estimado: ($0.08)\nGenerado: 2026-11-16
+ onfirmado\nEPS estimado: ($0.08)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RH — resultados (confirmado)
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:RH-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: RH\nNombre: RH\nFuente: nasdaq\nEstado: confirmado\nEP
- S estimado: $0.67\nGenerado: 2026-11-16
+ S estimado: $0.67\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:ORCL — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261214T161500
+DTEND;TZID=America/New_York:20261214T163000
+DTSTAMP:20261123T153047Z
+UID:ORCL-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: ORCL\nNombre: Oracle Corporation\nFuente: nasdaq\nEsta
+ do: confirmado\nEPS estimado: $1.56\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LEN — resultados (confirmado)
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:LEN-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: LEN\nNombre: Lennar Corporation\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $1.44\nGenerado: 2026-11-16
+ o: confirmado\nEPS estimado: $1.44\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LEN.B — resultados (confirmado)
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:LEN.B-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: LEN.B\nNombre: Lennar Corporation\nFuente: nasdaq\nEst
- ado: confirmado\nGenerado: 2026-11-16
+ ado: confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NDSN — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261215T161500
 DTEND;TZID=America/New_York:20261215T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:NDSN-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: NDSN\nNombre: Nordson Corporation\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: $3.46\nGenerado: 2026-11-16
+ ado: confirmado\nEPS estimado: $3.46\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:WOR — resultados (confirmado\, tras el cierre)
 DTSTART;TZID=America/New_York:20261215T161500
 DTEND;TZID=America/New_York:20261215T163000
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:WOR-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: WOR\nNombre: Worthington Enterprises\, Inc.\nFuente: n
- asdaq\nEstado: confirmado\nEPS estimado: $0.70\nGenerado: 2026-11-16
+ asdaq\nEstado: confirmado\nEPS estimado: $0.70\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ABM — resultados (confirmado)
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ABM-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ABM\nNombre: ABM Industries Incorporated\nFuente: nasd
- aq\nEstado: confirmado\nEPS estimado: $1.24\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:EPAC — resultados (confirmado)
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
-DTSTAMP:20261116T131450Z
-UID:EPAC-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: EPAC\nNombre: Enerpac Tool Group Corp.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $0.34\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:GIS — resultados (confirmado)
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
-DTSTAMP:20261116T131450Z
-UID:GIS-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: GIS\nNombre: General Mills\, Inc.\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: $0.96\nGenerado: 2026-11-16
+ aq\nEstado: confirmado\nEPS estimado: $1.24\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:JBL — resultados (confirmado)
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:JBL-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: JBL\nNombre: Jabil Inc.\nFuente: nasdaq\nEstado: confi
- rmado\nEPS estimado: $3.64\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MU — resultados (confirmado)
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
-DTSTAMP:20261116T131450Z
-UID:MU-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: MU\nNombre: Micron Technology\, Inc.\nFuente: nasdaq\n
- Estado: confirmado\nEPS estimado: $37.95\nGenerado: 2026-11-16
+ rmado\nEPS estimado: $3.64\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TTC — resultados (confirmado)
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TTC-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: TTC\nNombre: Toro Company (The)\nFuente: nasdaq\nEstad
- o: confirmado\nEPS estimado: $0.97\nGenerado: 2026-11-16
+ o: confirmado\nEPS estimado: $0.97\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ACN — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261217T080000
 DTEND;TZID=America/New_York:20261217T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ACN-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: ACN\nNombre: Accenture plc\nFuente: nasdaq\nEstado: co
- nfirmado\nEPS estimado: $3.90\nGenerado: 2026-11-16
+ nfirmado\nEPS estimado: $3.91\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:BB — resultados (confirmado)
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
+SUMMARY:BB — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261217T080000
+DTEND;TZID=America/New_York:20261217T081500
+DTSTAMP:20261123T153047Z
 UID:BB-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: BB\nNombre: BlackBerry Limited\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: $0.04\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:BIRK — resultados (confirmado)
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
-UID:BIRK-2026-Q3@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: BIRK\nNombre: Birkenstock Holding plc\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $0.51\nGenerado: 2026-11-16
+ : confirmado\nEPS estimado: $0.04\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CTAS — resultados (confirmado)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CTAS-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CTAS\nNombre: Cintas Corporation\nFuente: nasdaq\nEsta
- do: confirmado\nEPS estimado: $1.36\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DRI — resultados (confirmado)
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
-UID:DRI-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: DRI\nNombre: Darden Restaurants\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $2.28\nGenerado: 2026-11-16
+ do: confirmado\nEPS estimado: $1.36\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FDS — resultados (confirmado)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:FDS-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: FDS\nNombre: FactSet Research Systems Inc.\nFuente: na
- sdaq\nEstado: confirmado\nEPS estimado: $5.03\nGenerado: 2026-11-16
+ sdaq\nEstado: confirmado\nEPS estimado: $5.03\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:GIS — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261217T080000
+DTEND;TZID=America/New_York:20261217T081500
+DTSTAMP:20261123T153047Z
+UID:GIS-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: GIS\nNombre: General Mills\, Inc.\nFuente: nasdaq\nEst
+ ado: confirmado\nEPS estimado: $0.96\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HEI — resultados (confirmado)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:HEI-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: HEI\nNombre: Heico Corporation\nFuente: nasdaq\nEstado
- : confirmado\nEPS estimado: $1.62\nGenerado: 2026-11-16
+ : confirmado\nEPS estimado: $1.62\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KBH — resultados (confirmado)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:KBH-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: KBH\nNombre: KB Home\nFuente: nasdaq\nEstado: confirma
- do\nEPS estimado: $1.21\nGenerado: 2026-11-16
+ do\nEPS estimado: $1.21\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KEP — resultados (confirmado)
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:KEP-2026-Q3@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: KEP\nNombre: Korea Electric Power Corporation\nFuente:
-  nasdaq\nEstado: confirmado\nEPS estimado: $1.17\nGenerado: 2026-11-16
+  nasdaq\nEstado: confirmado\nEPS estimado: $1.17\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KMX — resultados (confirmado\, antes de apertura)
 DTSTART;TZID=America/New_York:20261217T080000
 DTEND;TZID=America/New_York:20261217T081500
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:KMX-2026-Q4@trading-calendars
 SEQUENCE:1
 DESCRIPTION:Ticker: KMX\nNombre: CarMax Inc\nFuente: nasdaq\nEstado: confi
- rmado\nEPS estimado: $0.42\nGenerado: 2026-11-16
+ rmado\nEPS estimado: $0.43\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:NKE — resultados (confirmado)
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
-DTSTAMP:20261116T131450Z
+SUMMARY:MU — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261217T161500
+DTEND;TZID=America/New_York:20261217T163000
+DTSTAMP:20261123T153047Z
+UID:MU-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: MU\nNombre: Micron Technology\, Inc.\nFuente: nasdaq\n
+ Estado: confirmado\nEPS estimado: $37.95\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NKE — resultados (confirmado\, tras el cierre)
+DTSTART;TZID=America/New_York:20261217T161500
+DTEND;TZID=America/New_York:20261217T163000
+DTSTAMP:20261123T153047Z
 UID:NKE-2026-Q4@trading-calendars
-SEQUENCE:0
+SEQUENCE:1
 DESCRIPTION:Ticker: NKE\nNombre: Nike\, Inc.\nFuente: nasdaq\nEstado: conf
- irmado\nEPS estimado: $0.34\nGenerado: 2026-11-16
+ irmado\nEPS estimado: $0.34\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CAG — resultados (confirmado)
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CAG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CAG\nNombre: ConAgra Brands\, Inc.\nFuente: nasdaq\nEs
- tado: confirmado\nEPS estimado: $0.34\nGenerado: 2026-11-16
+ tado: confirmado\nEPS estimado: $0.34\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CCL — resultados (confirmado)
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CCL-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CCL\nNombre: Carnival Corporation Ltd.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $0.22\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $0.22\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DRI — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20261218T080000
+DTEND;TZID=America/New_York:20261218T081500
+DTSTAMP:20261123T153047Z
+UID:DRI-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: DRI\nNombre: Darden Restaurants\, Inc.\nFuente: nasdaq
+ \nEstado: confirmado\nEPS estimado: $2.28\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LW — resultados (confirmado)
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:LW-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: LW\nNombre: Lamb Weston Holdings\, Inc.\nFuente: nasda
- q\nEstado: confirmado\nEPS estimado: $0.87\nGenerado: 2026-11-16
+ q\nEstado: confirmado\nEPS estimado: $0.87\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PAYX — resultados (confirmado)
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:PAYX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: PAYX\nNombre: Paychex\, Inc.\nFuente: nasdaq\nEstado: 
- confirmado\nEPS estimado: $1.30\nGenerado: 2026-11-16
+ confirmado\nEPS estimado: $1.29\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ABVX — resultados (confirmado)
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ABVX-2026-Q3@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ABVX\nNombre: Abivax SA\nFuente: nasdaq\nEstado: confi
- rmado\nEPS estimado: ($1.27)\nGenerado: 2026-11-16
+ rmado\nEPS estimado: ($1.27)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AIR — resultados (confirmado)
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AIR-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AIR\nNombre: AAR Corp.\nFuente: nasdaq\nEstado: confir
- mado\nEPS estimado: $1.39\nGenerado: 2026-11-16
+ mado\nEPS estimado: $1.39\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PENG — resultados (confirmado)
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:PENG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: PENG\nNombre: Penguin Solutions\, Inc.\nFuente: nasdaq
- \nEstado: confirmado\nEPS estimado: $0.88\nGenerado: 2026-11-16
+ \nEstado: confirmado\nEPS estimado: $0.88\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ACI — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ACI-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ACI\nNombre: Albertsons Companies\, Inc.\nFuente: nasd
- aq\nEstado: confirmado\nEPS estimado: $0.61\nGenerado: 2026-11-16
+ aq\nEstado: confirmado\nEPS estimado: $0.61\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:APLD — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:APLD-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: APLD\nNombre: Applied Digital Corporation\nFuente: nas
- daq\nEstado: confirmado\nEPS estimado: ($0.44)\nGenerado: 2026-11-16
+ daq\nEstado: confirmado\nEPS estimado: ($0.44)\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AZZ — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AZZ-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AZZ\nNombre: AZZ Inc.\nFuente: nasdaq\nEstado: confirm
- ado\nEPS estimado: $1.82\nGenerado: 2026-11-16
+ ado\nEPS estimado: $1.82\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CALM — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CALM-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CALM\nNombre: Cal-Maine Foods\, Inc.\nFuente: nasdaq\n
- Estado: confirmado\nGenerado: 2026-11-16
+ Estado: confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:JEF — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:JEF-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: JEF\nNombre: Jefferies Financial Group Inc.\nFuente: n
- asdaq\nEstado: confirmado\nEPS estimado: $0.95\nGenerado: 2026-11-16
+ asdaq\nEstado: confirmado\nEPS estimado: $0.95\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MSM — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MSM-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: MSM\nNombre: MSC Industrial Direct Company\, Inc.\nFue
- nte: nasdaq\nEstado: confirmado\nEPS estimado: $1.28\nGenerado: 2026-11-16
+ nte: nasdaq\nEstado: confirmado\nEPS estimado: $1.28\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PSMT — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:PSMT-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: PSMT\nNombre: PriceSmart\, Inc.\nFuente: nasdaq\nEstad
- o: confirmado\nGenerado: 2026-11-16
+ o: confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RGC — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:RGC-2026-Q3@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: RGC\nNombre: Regencell Bioscience Holdings Limited\nFu
- ente: nasdaq\nEstado: confirmado\nGenerado: 2026-11-16
+ ente: nasdaq\nEstado: confirmado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:STZ — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:STZ-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: STZ\nNombre: Constellation Brands Inc\nFuente: nasdaq\
- nEstado: confirmado\nEPS estimado: $2.77\nGenerado: 2026-11-16
+ nEstado: confirmado\nEPS estimado: $2.77\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:UNF — resultados (confirmado)
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:UNF-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: UNF\nNombre: Unifirst Corporation\nFuente: nasdaq\nEst
- ado: confirmado\nEPS estimado: $2.28\nGenerado: 2026-11-16
+ ado: confirmado\nEPS estimado: $2.28\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:INFY — resultados (ESTIMADO)
+SUMMARY:BMNR — resultados (confirmado)
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+DTSTAMP:20261123T153047Z
+UID:BMNR-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: BMNR\nNombre: BitMine Immersion Technologies\, Inc.\nF
+ uente: nasdaq\nEstado: confirmado\nEPS estimado: ($3.92)\nGenerado: 2026-1
+ 1-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BNY — resultados (confirmado)
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+DTSTAMP:20261123T153047Z
+UID:BNY-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: BNY\nNombre: The Bank Of New York Mellon Corporation\n
+ Fuente: nasdaq\nEstado: confirmado\nEPS estimado: $2.37\nGenerado: 2026-11
+ -23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DAL — resultados (confirmado)
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+DTSTAMP:20261123T153047Z
+UID:DAL-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: DAL\nNombre: Delta Air Lines\, Inc.\nFuente: nasdaq\nE
+ stado: confirmado\nEPS estimado: $1.42\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:JPM — resultados (confirmado)
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+DTSTAMP:20261123T153047Z
+UID:JPM-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: JPM\nNombre: J P Morgan Chase & Co\nFuente: nasdaq\nEs
+ tado: confirmado\nEPS estimado: $5.94\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:C — resultados (confirmado)
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
+UID:C-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: C\nNombre: Citigroup Inc.\nFuente: nasdaq\nEstado: con
+ firmado\nEPS estimado: $2.39\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:FUL — resultados (confirmado)
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+DTSTAMP:20261123T153047Z
+UID:FUL-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: FUL\nNombre: H. B. Fuller Company\nFuente: nasdaq\nEst
+ ado: confirmado\nEPS estimado: $1.38\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HOMB — resultados (confirmado)
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+DTSTAMP:20261123T153047Z
+UID:HOMB-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: HOMB\nNombre: Home BancShares\, Inc.\nFuente: nasdaq\n
+ Estado: confirmado\nEPS estimado: $0.65\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:INFY — resultados (confirmado)
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+DTSTAMP:20261123T153047Z
 UID:INFY-2026-Q4@trading-calendars
 SEQUENCE:0
-DESCRIPTION:Ticker: INFY\nNombre: INFOSYS LTD\nFuente: alphavantage\nEstad
- o: estimado\nEPS estimado: 0.2\nGenerado: 2026-11-16
+DESCRIPTION:Ticker: INFY\nNombre: Infosys Limited\nFuente: nasdaq\nEstado:
+  confirmado\nEPS estimado: $0.20\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:JPM — resultados (ESTIMADO)
+SUMMARY:UCB — resultados (confirmado)
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+DTSTAMP:20261123T153047Z
+UID:UCB-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: UCB\nNombre: United Community Banks\, Inc.\nFuente: na
+ sdaq\nEstado: confirmado\nEPS estimado: $0.82\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WFC — resultados (confirmado)
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+DTSTAMP:20261123T153047Z
+UID:WFC-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: WFC\nNombre: Wells Fargo & Company\nFuente: nasdaq\nEs
+ tado: confirmado\nEPS estimado: $1.88\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:AYI — resultados (confirmado)
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
-DTSTAMP:20261116T131450Z
-UID:JPM-2026-Q4@trading-calendars
+DTSTAMP:20261123T153047Z
+UID:AYI-2026-Q4@trading-calendars
 SEQUENCE:0
-DESCRIPTION:Ticker: JPM\nNombre: JPMORGAN CHASE & COMPANY\nFuente: alphava
- ntage\nEstado: estimado\nGenerado: 2026-11-16
+DESCRIPTION:Ticker: AYI\nNombre: Acuity Inc.\nFuente: nasdaq\nEstado: conf
+ irmado\nEPS estimado: $4.79\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MTB — resultados (ESTIMADO)
-DTSTART;VALUE=DATE:20270119
-DTEND;VALUE=DATE:20270120
-DTSTAMP:20261116T131450Z
-UID:MTB-2026-Q4@trading-calendars
+SUMMARY:CMC — resultados (confirmado)
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+DTSTAMP:20261123T153047Z
+UID:CMC-2026-Q4@trading-calendars
 SEQUENCE:0
-DESCRIPTION:Ticker: MTB\nNombre: M & T BANK CORP\nFuente: alphavantage\nEs
- tado: estimado\nGenerado: 2026-11-16
+DESCRIPTION:Ticker: CMC\nNombre: Commercial Metals Company\nFuente: nasdaq
+ \nEstado: confirmado\nEPS estimado: $1.66\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NEOG — resultados (confirmado)
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+DTSTAMP:20261123T153047Z
+UID:NEOG-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: NEOG\nNombre: Neogen Corporation\nFuente: nasdaq\nEsta
+ do: confirmado\nEPS estimado: $0.05\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RPM — resultados (confirmado)
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+DTSTAMP:20261123T153047Z
+UID:RPM-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: RPM\nNombre: RPM International Inc.\nFuente: nasdaq\nE
+ stado: confirmado\nEPS estimado: $1.26\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:SNX — resultados (confirmado)
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+DTSTAMP:20261123T153047Z
+UID:SNX-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: SNX\nNombre: TD SYNNEX Corporation\nFuente: nasdaq\nEs
+ tado: confirmado\nEPS estimado: $5.64\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WDFC — resultados (confirmado)
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+DTSTAMP:20261123T153047Z
+UID:WDFC-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: WDFC\nNombre: WD-40 Company\nFuente: nasdaq\nEstado: c
+ onfirmado\nEPS estimado: $1.33\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BAC — resultados (confirmado\, antes de apertura)
+DTSTART;TZID=America/New_York:20270115T080000
+DTEND;TZID=America/New_York:20270115T081500
+DTSTAMP:20261123T153047Z
+UID:BAC-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: BAC\nNombre: Bank of America Corporation\nFuente: nasd
+ aq\nEstado: confirmado\nEPS estimado: $1.13\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:BOKF — resultados (confirmado)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261123T153047Z
+UID:BOKF-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: BOKF\nNombre: BOK Financial Corporation\nFuente: nasda
+ q\nEstado: confirmado\nEPS estimado: $2.58\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:HDB — resultados (confirmado)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261123T153047Z
+UID:HDB-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: HDB\nNombre: HDFC Bank Limited\nFuente: nasdaq\nEstado
+ : confirmado\nEPS estimado: $0.41\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:IBN — resultados (confirmado)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261123T153047Z
+UID:IBN-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: IBN\nNombre: ICICI Bank Limited\nFuente: nasdaq\nEstad
+ o: confirmado\nEPS estimado: $0.43\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MTB — resultados (confirmado)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261123T153047Z
+UID:MTB-2026-Q4@trading-calendars
+SEQUENCE:1
+DESCRIPTION:Ticker: MTB\nNombre: M&T Bank Corporation\nFuente: nasdaq\nEst
+ ado: confirmado\nEPS estimado: $5\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PNC — resultados (confirmado)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261123T153047Z
+UID:PNC-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: PNC\nNombre: PNC Financial Services Group\, Inc. (The)
+ \nFuente: nasdaq\nEstado: confirmado\nEPS estimado: $5.09\nGenerado: 2026-
+ 11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RF — resultados (confirmado)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261123T153047Z
+UID:RF-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: RF\nNombre: Regions Financial Corporation\nFuente: nas
+ daq\nEstado: confirmado\nEPS estimado: $0.70\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STT — resultados (confirmado)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261123T153047Z
+UID:STT-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: STT\nNombre: State Street Corporation\nFuente: nasdaq\
+ nEstado: confirmado\nEPS estimado: $3.66\nGenerado: 2026-11-23
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:WIT — resultados (confirmado)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261123T153047Z
+UID:WIT-2026-Q4@trading-calendars
+SEQUENCE:0
+DESCRIPTION:Ticker: WIT\nNombre: Wipro Limited\nFuente: nasdaq\nEstado: co
+ nfirmado\nEPS estimado: $0.04\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:USB — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:USB-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: USB\nNombre: U.S. BANCORP.\nFuente: alphavantage\nEsta
- do: estimado\nGenerado: 2026-11-16
+ do: estimado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CFG — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CFG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CFG\nNombre: CITIZENS FINANCIAL GROUP INC\nFuente: alp
- havantage\nEstado: estimado\nGenerado: 2026-11-16
+ havantage\nEstado: estimado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:KEY — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:KEY-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: KEY\nNombre: KEYCORP\nFuente: alphavantage\nEstado: es
- timado\nGenerado: 2026-11-16
+ timado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TFC — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TFC-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: TFC\nNombre: TRUIST FINANCIAL CORPORATION\nFuente: alp
- havantage\nEstado: estimado\nGenerado: 2026-11-16
+ havantage\nEstado: estimado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:WY — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:WY-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: WY\nNombre: WEYERHAEUSER COMPANY\nFuente: alphavantage
- \nEstado: estimado\nEPS estimado: 0.0058\nGenerado: 2026-11-16
+ \nEstado: estimado\nEPS estimado: 0.0058\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:FBP — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:FBP-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: FBP\nNombre: FIRST BANCORP PR\nFuente: alphavantage\nE
- stado: estimado\nEPS estimado: 0.59\nGenerado: 2026-11-16
+ stado: estimado\nEPS estimado: 0.59\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NFG — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:NFG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: NFG\nNombre: NATIONAL FUEL GAS COMPANY\nFuente: alphav
- antage\nEstado: estimado\nEPS estimado: 2.13\nGenerado: 2026-11-16
+ antage\nEstado: estimado\nEPS estimado: 2.13\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:OTIS — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:OTIS-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: OTIS\nNombre: OTIS WORLDWIDE CORP\nFuente: alphavantag
- e\nEstado: estimado\nEPS estimado: 1.08\nGenerado: 2026-11-16
+ e\nEstado: estimado\nEPS estimado: 1.08\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ABCB — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ABCB-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ABCB\nNombre: AMERIS BANCORP\nFuente: alphavantage\nEs
- tado: estimado\nEPS estimado: 1.71\nGenerado: 2026-11-16
+ tado: estimado\nEPS estimado: 1.71\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TFSL — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TFSL-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: TFSL\nNombre: TFS FINANCIAL CORPORATION\nFuente: alpha
- vantage\nEstado: estimado\nEPS estimado: 0.09\nGenerado: 2026-11-16
+ vantage\nEstado: estimado\nEPS estimado: 0.09\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HRB — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:HRB-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: HRB\nNombre: H&R BLOCK INC\nFuente: alphavantage\nEsta
- do: estimado\nEPS estimado: -2.02\nGenerado: 2026-11-16
+ do: estimado\nEPS estimado: -2.02\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PFE — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:PFE-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: PFE\nNombre: PFIZER INC\nFuente: alphavantage\nEstado:
-  estimado\nEPS estimado: 0.69\nGenerado: 2026-11-16
+  estimado\nEPS estimado: 0.69\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ARM — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ARM-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ARM\nNombre: ARM HOLDINGS PLC.\nFuente: alphavantage\n
- Estado: estimado\nEPS estimado: 0.56\nGenerado: 2026-11-16
+ Estado: estimado\nEPS estimado: 0.56\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DHT — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DHT-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: DHT\nNombre: DHT HOLDINGS INC\nFuente: alphavantage\nE
- stado: estimado\nEPS estimado: 2.83\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:KMPR — resultados (ESTIMADO)
-DTSTART;VALUE=DATE:20270203
-DTEND;VALUE=DATE:20270204
-DTSTAMP:20261116T131450Z
-UID:KMPR-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: KMPR\nNombre: KEMPER CORPORATION\nFuente: alphavantage
- \nEstado: estimado\nEPS estimado: 0.8\nGenerado: 2026-11-16
+ stado: estimado\nEPS estimado: 2.83\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SAN — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SAN-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: SAN\nNombre: BANCO SANTANDER S.A.\nFuente: alphavantag
- e\nEstado: estimado\nEPS estimado: 0.32\nGenerado: 2026-11-16
+ e\nEstado: estimado\nEPS estimado: 0.32\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VCTR — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:VCTR-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: VCTR\nNombre: VICTORY CAPITAL HOLDINGS INC - CLASS A\n
  Fuente: alphavantage\nEstado: estimado\nEPS estimado: 1.98\nGenerado: 2026
- -11-16
+ -11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:B — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:B-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: B\nNombre: BARRICK GOLD CORP\nFuente: alphavantage\nEs
- tado: estimado\nEPS estimado: 0.79\nGenerado: 2026-11-16
+ tado: estimado\nEPS estimado: 0.79\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MWA — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MWA-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: MWA\nNombre: MUELLER WATER PRODUCTS INC - SERIES A\nFu
  ente: alphavantage\nEstado: estimado\nEPS estimado: 0.29\nGenerado: 2026-1
- 1-16
+ 1-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:OTEX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:OTEX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: OTEX\nNombre: OPEN TEXT CORP\nFuente: alphavantage\nEs
- tado: estimado\nEPS estimado: 0.99\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:UAA — resultados (ESTIMADO)
-DTSTART;VALUE=DATE:20270204
-DTEND;VALUE=DATE:20270205
-DTSTAMP:20261116T131450Z
-UID:UAA-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: UAA\nNombre: UNDER ARMOUR INC - CLASS A\nFuente: alpha
- vantage\nEstado: estimado\nEPS estimado: -0.01\nGenerado: 2026-11-16
+ tado: estimado\nEPS estimado: 0.99\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MNDY — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270208
 DTEND;VALUE=DATE:20270209
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MNDY-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: MNDY\nNombre: MONDAY.COM LTD\nFuente: alphavantage\nEs
- tado: estimado\nEPS estimado: 1.67\nGenerado: 2026-11-16
+ tado: estimado\nEPS estimado: 1.67\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MIR — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MIR-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: MIR\nNombre: MIRION TECHNOLOGIES INC - CLASS A\nFuente
- : alphavantage\nEstado: estimado\nEPS estimado: 0.21\nGenerado: 2026-11-16
+ : alphavantage\nEstado: estimado\nEPS estimado: 0.21\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TTWO — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TTWO-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: TTWO\nNombre: TAKE-TWO INTERACTIVE SOFTWARE INC\nFuent
- e: alphavantage\nEstado: estimado\nEPS estimado: 1.78\nGenerado: 2026-11-1
- 6
+ e: alphavantage\nEstado: estimado\nEPS estimado: 1.78\nGenerado: 2026-11-2
+ 3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AVTR — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AVTR-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AVTR\nNombre: AVANTOR INC\nFuente: alphavantage\nEstad
- o: estimado\nEPS estimado: 0.22\nGenerado: 2026-11-16
+ o: estimado\nEPS estimado: 0.22\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CXT — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CXT-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CXT\nNombre: CRANE NXT COMPANY\nFuente: alphavantage\n
- Estado: estimado\nEPS estimado: 1.38\nGenerado: 2026-11-16
+ Estado: estimado\nEPS estimado: 1.38\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GCMG — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:GCMG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: GCMG\nNombre: GCM GROSVENOR INC - CLASS A\nFuente: alp
- havantage\nEstado: estimado\nEPS estimado: 0.34\nGenerado: 2026-11-16
+ havantage\nEstado: estimado\nEPS estimado: 0.34\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TEX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TEX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: TEX\nNombre: TEREX CORP\nFuente: alphavantage\nEstado:
-  estimado\nEPS estimado: 1.07\nGenerado: 2026-11-16
+  estimado\nEPS estimado: 1.07\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ZBH — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ZBH-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ZBH\nNombre: ZIMMER BIOMET HOLDINGS INC\nFuente: alpha
- vantage\nEstado: estimado\nEPS estimado: 2.49\nGenerado: 2026-11-16
+ vantage\nEstado: estimado\nEPS estimado: 2.49\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AMG — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AMG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AMG\nNombre: AFFILIATED MANAGERS GROUP INC\nFuente: al
- phavantage\nEstado: estimado\nEPS estimado: 12.04\nGenerado: 2026-11-16
+ phavantage\nEstado: estimado\nEPS estimado: 12.04\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HASI — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:HASI-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: HASI\nNombre: HANNON ARMSTRONG SUSTAINABLE INFRASTRUCT
  URE CAPITAL INC\nFuente: alphavantage\nEstado: estimado\nEPS estimado: 0.7
- 4\nGenerado: 2026-11-16
+ 4\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RELX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:RELX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: RELX\nNombre: RELX PLC\nFuente: alphavantage\nEstado: 
- estimado\nGenerado: 2026-11-16
+ estimado\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CCJ — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CCJ-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CCJ\nNombre: CAMECO CORP\nFuente: alphavantage\nEstado
- : estimado\nEPS estimado: 0.38\nGenerado: 2026-11-16
+ : estimado\nEPS estimado: 0.38\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SGI — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SGI-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: SGI\nNombre: TEMPUR SEALY INTERNATIONAL INC\nFuente: a
- lphavantage\nEstado: estimado\nEPS estimado: 0.69\nGenerado: 2026-11-16
+ lphavantage\nEstado: estimado\nEPS estimado: 0.69\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AMPL — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AMPL-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AMPL\nNombre: AMPLITUDE INC - CLASS A\nFuente: alphava
- ntage\nEstado: estimado\nEPS estimado: 0.06\nGenerado: 2026-11-16
+ ntage\nEstado: estimado\nEPS estimado: 0.06\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AWR — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AWR-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AWR\nNombre: AMERICAN STATES WATER COMPANY\nFuente: al
- phavantage\nEstado: estimado\nEPS estimado: 0.7\nGenerado: 2026-11-16
+ phavantage\nEstado: estimado\nEPS estimado: 0.7\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BTG — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:BTG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: BTG\nNombre: B2GOLD CORP\nFuente: alphavantage\nEstado
- : estimado\nEPS estimado: 0.17\nGenerado: 2026-11-16
+ : estimado\nEPS estimado: 0.17\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CNH — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CNH-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CNH\nNombre: CNH INDUSTRIAL NV\nFuente: alphavantage\n
- Estado: estimado\nEPS estimado: 0.21\nGenerado: 2026-11-16
+ Estado: estimado\nEPS estimado: 0.21\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:EQX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:EQX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: EQX\nNombre: EQUINOX GOLD CORP\nFuente: alphavantage\n
- Estado: estimado\nEPS estimado: 0.31\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:NESR — resultados (ESTIMADO)
-DTSTART;VALUE=DATE:20270217
-DTEND;VALUE=DATE:20270218
-DTSTAMP:20261116T131450Z
-UID:NESR-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: NESR\nNombre: NATIONAL ENERGY SERVICES REUNITED CORP\n
- Fuente: alphavantage\nEstado: estimado\nEPS estimado: 0.55\nGenerado: 2026
- -11-16
+ Estado: estimado\nEPS estimado: 0.31\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:OXY — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:OXY-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: OXY\nNombre: OCCIDENTAL PETROLEUM CORP\nFuente: alphav
- antage\nEstado: estimado\nEPS estimado: 1.95\nGenerado: 2026-11-16
+ antage\nEstado: estimado\nEPS estimado: 1.95\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CWST — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CWST-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CWST\nNombre: CASELLA WASTE SYSTEMS INC - CLASS A\nFue
  nte: alphavantage\nEstado: estimado\nEPS estimado: 0.26\nGenerado: 2026-11
- -16
+ -23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MD — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MD-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: MD\nNombre: PEDIATRIX MEDICAL GROUP INC\nFuente: alpha
- vantage\nEstado: estimado\nEPS estimado: 0.63\nGenerado: 2026-11-16
+ vantage\nEstado: estimado\nEPS estimado: 0.63\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ONTO — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ONTO-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ONTO\nNombre: ONTO INNOVATION INC\nFuente: alphavantag
- e\nEstado: estimado\nEPS estimado: 2.51\nGenerado: 2026-11-16
+ e\nEstado: estimado\nEPS estimado: 2.51\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RIG — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:RIG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: RIG\nNombre: TRANSOCEAN LTD\nFuente: alphavantage\nEst
- ado: estimado\nEPS estimado: 0.06\nGenerado: 2026-11-16
+ ado: estimado\nEPS estimado: 0.06\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ABCL — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ABCL-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ABCL\nNombre: ABCELLERA BIOLOGICS INC\nFuente: alphava
- ntage\nEstado: estimado\nEPS estimado: -0.17\nGenerado: 2026-11-16
+ ntage\nEstado: estimado\nEPS estimado: -0.17\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CCC — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CCC-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CCC\nNombre: CCC INTELLIGENT SOLUTIONS HOLDINGS INC\nF
  uente: alphavantage\nEstado: estimado\nEPS estimado: 0.13\nGenerado: 2026-
- 11-16
+ 11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CWEN — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CWEN-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CWEN\nNombre: CLEARWAY ENERGY INC - CLASS C\nFuente: a
- lphavantage\nEstado: estimado\nEPS estimado: -0.14\nGenerado: 2026-11-16
+ lphavantage\nEstado: estimado\nEPS estimado: -0.14\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NOVT — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:NOVT-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: NOVT\nNombre: NOVANTA INC\nFuente: alphavantage\nEstad
- o: estimado\nEPS estimado: 1.02\nGenerado: 2026-11-16
+ o: estimado\nEPS estimado: 1.02\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ARQT — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ARQT-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ARQT\nNombre: ARCUTIS BIOTHERAPEUTICS INC\nFuente: alp
- havantage\nEstado: estimado\nEPS estimado: 0.21\nGenerado: 2026-11-16
+ havantage\nEstado: estimado\nEPS estimado: 0.21\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CEG — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CEG-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CEG\nNombre: CONSTELLATION ENERGY CORPORATION\nFuente:
-  alphavantage\nEstado: estimado\nEPS estimado: 3.03\nGenerado: 2026-11-16
+  alphavantage\nEstado: estimado\nEPS estimado: 3.03\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AMBP — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AMBP-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AMBP\nNombre: ARDAGH METAL PACKAGING S.A.\nFuente: alp
- havantage\nEstado: estimado\nEPS estimado: 0.02\nGenerado: 2026-11-16
+ havantage\nEstado: estimado\nEPS estimado: 0.02\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PRAX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:PRAX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: PRAX\nNombre: PRAXIS PRECISION MEDICINES INC\nFuente: 
- alphavantage\nEstado: estimado\nEPS estimado: -3.97\nGenerado: 2026-11-16
+ alphavantage\nEstado: estimado\nEPS estimado: -3.97\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PRMB — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:PRMB-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: PRMB\nNombre: PRIMO BRANDS CORP - CLASS A\nFuente: alp
- havantage\nEstado: estimado\nEPS estimado: 0.32\nGenerado: 2026-11-16
+ havantage\nEstado: estimado\nEPS estimado: 0.32\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RDNT — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:RDNT-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: RDNT\nNombre: RADNET INC\nFuente: alphavantage\nEstado
- : estimado\nEPS estimado: 0.26\nGenerado: 2026-11-16
+ : estimado\nEPS estimado: 0.26\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:RKLB — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:RKLB-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: RKLB\nNombre: ROCKET LAB USA INC\nFuente: alphavantage
- \nEstado: estimado\nEPS estimado: -0.05\nGenerado: 2026-11-16
+ \nEstado: estimado\nEPS estimado: -0.05\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TTD — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TTD-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: TTD\nNombre: TRADE DESK INC - CLASS A\nFuente: alphava
- ntage\nEstado: estimado\nEPS estimado: 0.29\nGenerado: 2026-11-16
+ ntage\nEstado: estimado\nEPS estimado: 0.29\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DKL — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DKL-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: DKL\nNombre: DELEK LOGISTICS PARTNERS LP\nFuente: alph
- avantage\nEstado: estimado\nEPS estimado: 1.21\nGenerado: 2026-11-16
+ avantage\nEstado: estimado\nEPS estimado: 1.21\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:AAON — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:AAON-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: AAON\nNombre: AAON INC\nFuente: alphavantage\nEstado: 
- estimado\nEPS estimado: 0.7\nGenerado: 2026-11-16
+ estimado\nEPS estimado: 0.7\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:ASTS — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:ASTS-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: ASTS\nNombre: AST SPACEMOBILE INC - CLASS A\nFuente: a
- lphavantage\nEstado: estimado\nEPS estimado: -0.44\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:AUPH — resultados (ESTIMADO)
-DTSTART;VALUE=DATE:20270301
-DTEND;VALUE=DATE:20270302
-DTSTAMP:20261116T131450Z
-UID:AUPH-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: AUPH\nNombre: AURINIA PHARMACEUTICALS INC\nFuente: alp
- havantage\nEstado: estimado\nEPS estimado: 0.21\nGenerado: 2026-11-16
+ lphavantage\nEstado: estimado\nEPS estimado: -0.44\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CIB — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:CIB-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: CIB\nNombre: BANCOLOMBIA S.A.\nFuente: alphavantage\nE
- stado: estimado\nEPS estimado: 3.14\nGenerado: 2026-11-16
+ stado: estimado\nEPS estimado: 3.14\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:HIMS — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:HIMS-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: HIMS\nNombre: HIMS & HERS HEALTH INC - CLASS A\nFuente
- : alphavantage\nEstado: estimado\nEPS estimado: 0.1\nGenerado: 2026-11-16
+ : alphavantage\nEstado: estimado\nEPS estimado: 0.1\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TGTX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TGTX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: TGTX\nNombre: TG THERAPEUTICS INC\nFuente: alphavantag
- e\nEstado: estimado\nEPS estimado: 0.6\nGenerado: 2026-11-16
+ e\nEstado: estimado\nEPS estimado: 0.6\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:XENE — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:XENE-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: XENE\nNombre: XENON PHARMACEUTICALS INC\nFuente: alpha
- vantage\nEstado: estimado\nEPS estimado: -1.15\nGenerado: 2026-11-16
+ vantage\nEstado: estimado\nEPS estimado: -1.15\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:NXE — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:NXE-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: NXE\nNombre: NEXGEN ENERGY LTD\nFuente: alphavantage\n
- Estado: estimado\nEPS estimado: -0.04\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:IMNM — resultados (ESTIMADO)
-DTSTART;VALUE=DATE:20270303
-DTEND;VALUE=DATE:20270304
-DTSTAMP:20261116T131450Z
-UID:IMNM-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: IMNM\nNombre: IMMUNOME INC\nFuente: alphavantage\nEsta
- do: estimado\nEPS estimado: -0.64\nGenerado: 2026-11-16
+ Estado: estimado\nEPS estimado: -0.04\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:LINE — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:LINE-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: LINE\nNombre: LINEAGE INC\nFuente: alphavantage\nEstad
- o: estimado\nEPS estimado: -0.2\nGenerado: 2026-11-16
+ o: estimado\nEPS estimado: -0.2\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:SOBO — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:SOBO-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: SOBO\nNombre: SOUTH BOW CORP\nFuente: alphavantage\nEs
- tado: estimado\nEPS estimado: 0.44\nGenerado: 2026-11-16
+ tado: estimado\nEPS estimado: 0.44\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DFTX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:DFTX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: DFTX\nNombre: DEFINIUM THERAPEUTICS INC\nFuente: alpha
- vantage\nEstado: estimado\nEPS estimado: -0.53\nGenerado: 2026-11-16
+ vantage\nEstado: estimado\nEPS estimado: -0.53\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:TNGX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:TNGX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: TNGX\nNombre: TANGO THERAPEUTICS INC\nFuente: alphavan
- tage\nEstado: estimado\nEPS estimado: -0.39\nGenerado: 2026-11-16
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CTOS — resultados (ESTIMADO)
-DTSTART;VALUE=DATE:20270310
-DTEND;VALUE=DATE:20270311
-DTSTAMP:20261116T131450Z
-UID:CTOS-2026-Q4@trading-calendars
-SEQUENCE:0
-DESCRIPTION:Ticker: CTOS\nNombre: CUSTOM TRUCK ONE SOURCE INC\nFuente: alp
- havantage\nEstado: estimado\nEPS estimado: 0.09\nGenerado: 2026-11-16
+ tage\nEstado: estimado\nEPS estimado: -0.39\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MBX — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270318
 DTEND;VALUE=DATE:20270319
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:MBX-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: MBX\nNombre: MBX BIOSCIENCES INC\nFuente: alphavantage
- \nEstado: estimado\nEPS estimado: -0.93\nGenerado: 2026-11-16
+ \nEstado: estimado\nEPS estimado: -0.93\nGenerado: 2026-11-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:USAR — resultados (ESTIMADO)
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
-DTSTAMP:20261116T131450Z
+DTSTAMP:20261123T153047Z
 UID:USAR-2026-Q4@trading-calendars
 SEQUENCE:0
 DESCRIPTION:Ticker: USAR\nNombre: USA RARE EARTH INC - CLASS A\nFuente: al
- phavantage\nEstado: estimado\nEPS estimado: -0.1\nGenerado: 2026-11-16
+ phavantage\nEstado: estimado\nEPS estimado: -0.1\nGenerado: 2026-11-23
 END:VEVENT
 END:VCALENDAR
